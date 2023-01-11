@@ -102,5 +102,5 @@ ex) git log **--oneline**
 명령어 동작의 대상 지정 -> 없으면 오류발생    
 ex) git add **. or README.md**
 
-#### 4) git flow
+#### 6) git flow
 ![git_flow](https://www.notion.so/4-Git-db2f2e87d7594724b6308d13b51daff8#d5aefe3792f849b499b40fb0af7b66dd)

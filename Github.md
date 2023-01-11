@@ -104,3 +104,5 @@ $ git push -u origin master
 2. Authorize GitCredentialManager 클릭
 
 ### 4) 원격 저장소에서 정상 업로드 확인
+
+설정한 원격 저장소에서 업로드 된 것을 확인한다.
