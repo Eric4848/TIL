@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>selectbox</h1>
+
+    <form action="./html10-formres.html" method="get">
+        <fieldset style="width: 500px;">
+            <legend><strong>과일정보</strong></legend>
+            <div>SELECT</div>
+            <select name="fruit1" id="">
+                <option value="strawberry">딸기</option>
+                <option value="passionFruit">패션후르츠</option>
+                <option value="pineapple">파인애플</option>
+                <option value="mangosteen">망고스틴</option>
+            </select>
+            <br>
+
+            <div>Select-Multiple</div>
+            <select multiple name="fruit2" id="">
+                <option value="starwberry">딸기</option>
+                <option value="passionFruit">패션후르츠</option>
+                <option value="pineapple">파인애플</option>
+                <option value="mangosteen">망고스틴</option>
+            </select>
+            <br>
+            <div>Select-Multiple</div>
+            <select multiple name="fruit3" id="">
+                <optgroup label="과일">
+                    <option value="starwberry">딸기</option>
+                    <option value="passionFruit">패션후르츠</option>
+                    <option value="pineapple">파인애플</option>
+                    <option value="mangosteen">망고스틴</option>
+                </optgroup>
+                <optgroup label="일식">
+                    <option value="chashudong">차슈동</option>
+                    <option value="sushi">스시</option>
+                    <option value="donkatsu">돈가스</option>
+                </optgroup>
+            </select>
+        </fieldset>
+        <input type="submit" value="입력">
+    </form>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .semantic{
+            border: 1px dashed blue;
+        }
+        nav.semantic a{
+            text-decoration: none;
+        }
+        section.semantic{
+            height: 400px;
+            margin: 10px;
+        }
+        #left{
+            height: 400px;
+            float: left;
+            width: 45%
+        }
+        #right{
+            height: 400px;
+            float: right;
+            width: 45%
+        }
+    </style>
+</head>
+<body>
+    <header class="semantic">
+        <h1>제목</h1>
+        <nav class="semantic">
+            <span><a href="">메뉴 1</a></span>
+            <span><a href="">메뉴 2</a></span>
+            <span><a href="">메뉴 3</a></span>
+            <span><a href="">메뉴 4</a></span>
+        </nav>
+    </header>
+
+    <section class="semantic">
+        <article class="semantic" id="left">
+            <p>내용 1</p>
+        </article>
+        <article class="semantic" id="right">
+            <p>내용 2</p>
+        </article>
+    </section>
+
+    <footer class="semantic">
+        <address>copy right &copy; all right reserved ...</address>
+    </footer>
+</body>
+</html>

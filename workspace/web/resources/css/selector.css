@@ -1,0 +1,80 @@
+/* 타입(태그) 선택자 */
+pre{
+    text-align: center;
+    color: blue;
+}
+/* class 선택자 */
+.multi1{
+    color: blue;
+}
+
+.multi2{
+    color: violet;
+}
+
+.multi3{
+    color: deepskyblue;
+}
+/* 전체선택자/*  /*
+*{
+    font-family: 궁서체;
+    color: black;
+    background-color: whitesmoke;
+    text-align:left
+} 
+*/
+/* >id 선택자 */
+#multi1{
+    color: blue;
+}
+
+#multi2{
+    color: violet;
+}
+
+#multi3{
+    color: deepskyblue;
+}
+/* 자식 선택자 */
+#children1 > p{
+    background-color: darkblue;
+    color: white;
+}
+
+#children1 >div >p{
+    background-color: aquamarine;
+    color: red;
+}
+/* 하위 선택자 */
+#children2 span{
+    color: brown;
+}
+/* 인접 선택자 */
+span+pre{
+    color: hotpink;
+    background-color: yellow;
+}
+/* 가상 클래스 */
+/* 방문하지 않은 링크 */
+a:link{
+    color: green;
+    font: 20pt;
+}
+/* 방문한 링크 */
+a:visited{
+    color: black;
+}
+/* 링크에 마우스 오버시 */
+a:hover{
+    background-color: aqua;
+}
+/* 링크 클릭시 */
+a:active{
+    background-color: red;
+    color: yellow;
+}
+/* 체크 시 켜짐 */
+input:checked{
+    width: 100px;
+    height: 100px;
+}
