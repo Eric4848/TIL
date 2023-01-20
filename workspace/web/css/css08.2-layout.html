@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* width: 1255px을 줄 시 좌우분할 고정 가능 / lib위치 고정 불가 */
+        *{
+            margin: 0px;
+        }
+
+        header{
+            border: 1px solid black;
+            margin: 3px;
+
+        }
+
+        li{
+            list-style: none;
+        }
+
+        #gnb{
+            height: 50px;
+        }
+
+        #gnb>ul{
+            height: 50px;
+            padding: 0px;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+
+        #gnb>ul>li{
+            float: left;
+            width: 70px;
+            height: 30px;
+            border: 1px solid black;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        #lib{
+            height: 70px;
+        }
+
+        #lib>ul{
+            height: 50px;
+            padding: 0px;
+            position: absolute;
+            top: 80px;
+            right: 3px;
+        }
+
+        #lib>ul>li{
+            float: left;
+            width: 70px;
+            height: 30px;
+            border: 1px solid black;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        #content{
+            border: 1px solid black;
+            margin: 3px;
+            height: 400px;
+
+        }
+
+        #section{
+            border: 1px solid black;
+            margin: 2px;
+            height: 395px;
+            width: 64.2%;
+            float: left;
+        }
+
+        #aside{
+            border: 1px solid black;
+            margin: 2px;
+            height: 395px;
+            width: 34.5%;
+            float: right;
+        }
+
+        footer{
+            border: 1px solid black;
+            margin: 3px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="con">
+        <header>
+            <div id="gnb">
+                <ul>
+                    <li><a href="">gnb01</a></li>
+                    <li><a href="">gnb02</a></li>
+                    <li><a href="">gnb03</a></li>
+                    <li><a href="">gnb04</a></li>
+                    <li><a href="">gnb05</a></li>
+                </ul>
+            </div>
+            <div id="lib">
+                <ul>
+                    <li><a href="">lng01</a></li>
+                    <li><a href="">lng02</a></li>
+                    <li><a href="">lng03</a></li>
+                    <li><a href="">lng04</a></li>
+                    <li><a href="">lng05</a></li>
+                </ul>
+            </div>
+        </header>
+        <div id="content">
+            <div id="section">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam at provident temporibus 
+                laboriosam tenetur nisi sapiente nobis aperiam id. Provident, alias corporis ipsam est 
+                molestias beatae quo quia temporibus aut.
+            </div>
+            <div id="aside">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio iste, architecto quis fugiat 
+                quas minima, voluptas fugit, unde officia totam neque nesciunt iusto odit. Sapiente sed
+                 harum temporibus dolore praesentium!
+            </div>
+        </div>
+        <footer>office information</footer>
+    </div>
+</body>
+</html>

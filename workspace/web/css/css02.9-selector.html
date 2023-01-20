@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #content{
+            width: 200px;
+            padding: 0px;
+        }
+
+        #content>li{
+            list-style-type: none;
+            border:1px solid #cccccc;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: #eeeeee;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+        }
+
+        #content>a{
+            text-decoration: none;
+        }
+
+        #content>li:first-child{
+            background-color: yellow;
+        }
+
+        #content>li:last-child{
+            background-color: pink;
+        }
+
+        #content>li:nth-child(5){
+            background-color: skyblue;
+        }
+
+        #content>li:nth-child(2n){
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul id="content">
+            <li><a href="#">MENU1</a></li>
+            <li><a href="#">MENU2</a></li>
+            <li><a href="#">MENU3</a></li>
+            <li><a href="#">MENU4</a></li>
+            <li><a href="#">MENU5</a></li>
+            <li><a href="#">MENU6</a></li>
+            <li><a href="#">MENU7</a></li>
+        </ul>
+    </div>
+</body>
+</html>

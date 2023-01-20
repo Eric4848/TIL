@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #wrap{
+            width: 800px;
+            border: 1px solid red;
+        }
+        #content>p:nth-child(2)::first-letter,
+        #history2:first-letter{
+            font-size: 2em;
+        }
+
+        #content>p:nth-child(2)::first-line,
+        #history2:first-line{
+            font-weight: bold;
+            color: blue;
+        }
+
+        #content>p:nth-child(1)::selection{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="header">
+            <h1>설립 개요</h1>
+        </div>
+
+        <div id="content">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur suscipit doloremque magnam? 
+                Quam iure dolorem, nihil tenetur, reiciendis, cupiditate nisi modi neque eius voluptate quos 
+                numquam facere sed exercitationem eveniet!
+            </p>
+
+            <p id="history1">
+                2022년 12월 9일 <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, quis. Ut nobis quas suscipit! 
+                Iusto dolore soluta blanditiis est ut provident asperiores ipsam minima praesentium, dolor modi 
+                non harum excepturi?
+            </p>
+
+            <p id="history2">
+                2023년 1월 20일 <br>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe corrupti odio veniam maxime 
+                eos, maiores porro voluptate, libero alias debitis, perspiciatis similique a magnam hic. 
+                Consequatur dignissimos mollitia a magnam!
+            </p>
+        </div>
+    </div>
+</body>
+</html>

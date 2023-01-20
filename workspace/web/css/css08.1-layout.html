@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            text-align: center;
+            margin: 2px;
+        }
+        #con{
+            border: 1px solid black;
+            margin: 10px;
+        }
+
+        #header{
+            font-weight: bold;
+            border: 1px solid black;
+        }
+
+        #nav{
+            font-weight: bold;
+            height: 60px;
+            object-position: center;
+        }
+
+        li{
+            list-style: none;
+            float: left;
+            width: 19%;
+            border: 1px solid black;
+            margin: 0px;
+            border-left: none;
+        }
+
+        #wrap{
+            border: 1px solid black;
+            height: 400px;
+        }
+
+        #wrap>div{
+            border: 1px solid black;
+        }
+
+        #content{
+            float: left;
+            width: 74.5%;
+            height: 98%;
+            margin: 1px;
+            line-height: 392px;
+        }
+
+        #banner{
+            float: right;
+            width: 24.5%;
+            height: 98%;
+            margin: 1px;
+            line-height: 392px;
+        }
+
+        #footer{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="con">
+        <div id="header">HEADER</div>
+        <div id="nav">
+            <p>NAVIGATION</p>
+            <ul>
+                <li style="border-left: 1px solid black">menu1</li>
+                <li>menu2</li>
+                <li>menu3</li>
+                <li>menu4</li>
+                <li>menu5</li>
+            </ul>
+        </div>
+
+        <div id="wrap">
+            <div id="content">CONTENT</div>
+            <div id="banner">BANNER</div>
+        </div>
+        <div id="footer">FOOTER</div>
+    </div>
+</body>
+</html>
