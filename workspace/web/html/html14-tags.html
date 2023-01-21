@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <base href="https://www.google.com" target="_blank">
+    <style>
+        h2+p{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>유용한 Tag들</h1>
+
+    <div>
+        <h2>abbr</h2>
+        <p>마우스를 올려두면 설명을 보여줌</p>
+        <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+    </div>
+
+    <div>
+        <h2>base</h2>
+        <p>anchor에 기본주소 설정, head에 작성해야함</p>
+        <a href="search?q=python">google</a>
+    </div>
+
+    <div>
+        <h2>cite</h2>
+        <p>창작물 명칭을 표현할 때 사용</p>
+        <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>    
+    </div>
+    
+    <div>
+        <h2>datalist</h2>
+        <p>리스트로 데이터를 미리 저장해둠 ex)아이디 비밀번호 기억</p>
+        <form action="/action_page.php" method="get">
+            <label for="browser">Choose your browser from the list:</label>
+            <input list="browsers" name="browser" id="browser">
+            <datalist id="browsers">
+                <option value="Edge">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+            <input type="submit">
+        </form>
+    </div>
+
+    <div>
+        <h2>del</h2>
+        <p>줄을 그어서 삭제 표시를 남김</p>
+        <p>오늘은 <del>2022</del>2023년 1월 21일이다.</p>
+    </div>
+
+    <div>
+        <h2>details</h2>
+        <p>열어볼 수 있는 텍스트를 만든다.</p>
+        <details>
+            <summary>행운의 편지</summary>
+            <p>이 편지는 영국에서 최초로 시작되어 일년에 한바퀴를 돌면서 받는 사람에게 행운을 주었고 지금은 
+                당신에게로 옮겨진 이 편지는 4일 안에 당신 곁을 떠나야 합니다. 이 편지를 포함해서 7통을 행운이 
+                필요한 사람에게 보내 주셔야 합니다. 복사를 해도 좋습니다. 혹 미신이라 하실지 모르지만 사실입니다.
+                <br>
+                영국에서 HGXWCH이라는 사람은 1930년에 이 편지를 받았습니다. 그는 비서에게 복사해서 보내라고 했습니다.
+                 며칠 뒤에 복권이 당첨되어 20억을 받았습니다. 어떤 이는 이 편지를 받았으나 96시간 이내 자신의 손에서 
+                 떠나야 한다는 사실을 잊었습니다. 그는 곧 사직되었습니다. 나중에야 이 사실을 알고 7통의 편지를 
+                 보냈는데 다시 좋은 직장을 얻었습니다. 미국의 케네디 대통령은 이 편지를 받았지만 그냥 버렸습니다. 
+                 결국 9일 후 그는 암살당했습니다. 기억해 주세요. 이 편지를 보내면 7년의 행운이 있을 것이고 그렇지 
+                 않으면 3년의 불행이 있을 것입니다. 그리고 이 편지를 버리거나 낙서를 해서는 절대로 안됩니다. 7통입니다. 이 편지를 받은 사람은 행운이 깃들것입니다. 힘들겠지만 좋은게 좋다고 생각하세요. 7년의 행운을 빌면서...</p>
+        </details>
+    </div>
+</body>
+</html>
