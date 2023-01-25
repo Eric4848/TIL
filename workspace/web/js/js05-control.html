@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            width: 100px;
+        }
+    </style>
+    <script>
+        function ifTest(){
+            let i = prompt('숫자 1이나 2를 입력하시오')
+            if (i==null||i==''){//null은 취소일 때 입력값
+                alert('입력하시오')
+            }else if(i==1){
+                alert('one!')
+            }else if(i==2){
+                alert('two!')
+            }else{
+                alert('1이나 2를 입력하시오')
+            }
+        }
+
+        function ifTest01(){
+            const id = prompt('아이디를 입력하시오')
+            const pw = prompt('비밀번호를 입력하시오')
+            if(id == 'root' && pw == 1234){
+                alert('로그인 성공')
+            }
+            else if(id != 'root'){
+                alert('아이디 오류')
+            }else if(pw != '1234'){
+                alert('비밀번호 오류')
+            }
+        }
+
+        function switchTest(){
+            const season = prompt("What's your favorite season?")
+
+            switch(season){
+                case 'spring':
+                    alert('warm')
+                    break;
+                case 'summer':
+                    alert('vacation')
+                    break;
+                case 'fall':
+                    alert('nice weather')
+                    break;
+                case 'winter':
+                    alert('ski')
+                    break;
+                default:
+                    alert('Enter season')
+                    break;
+            }
+        }
+        function switchTest01(){
+            const month = prompt("What's your favorite month?")
+            switch(month){
+                case '3':
+                case '4':
+                case '5':
+                    alert('spring')
+                    break;
+                case '6':
+                case '7':
+                case '8':
+                    alert('summer')
+                    break;
+                case '9':
+                case '10':
+                case '11':
+                    alert('fall')
+                    break;
+                case '12':
+                case '1':
+                case '2':
+                    alert('winter')
+                    break;
+                default:
+                    alert('Enter month(number)')
+                    break;
+            }
+        }        
+    </script>
+</head>
+<body>
+    <button onclick="ifTest()">if</button>
+    <br>
+    <button onclick="ifTest01()">if-login</button>
+    <br>
+    <button onclick="switchTest()">switch</button>
+    <br>
+    <button onclick="switchTest01()">switch-month</button>
+    <br>
+    <button onclick="forTest()">for</button>
+    <br>
+    <button onclick="whileTest()">while</button>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        console.log(num);// 선언되어 있다면 선언을 제일 상단에 있다고 계산됨
+        var num;// let, const는 undefined를 할당하지 않음 => 오류 발생
+        num = 6;
+    </script>
+</head>
+<body>
+    <h1>hoisting</h1>
+    <p>변수의 메모리 공간을 선언전에 미리 할당하는 것</p>
+    <p>변수의 선언과 초기화를 분리한 후, 선언만 코드의 최상단으로 이동</p>
+    <p>let, const는 hoisting 되지만 undefined값으로 초기화되지 않는다</p>
+</body>
+</html>

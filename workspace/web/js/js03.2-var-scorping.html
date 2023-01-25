@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var x = 100; //전역변수
+        var y = 100;
+        var sum = 100;
+        const email = 'a@a.com'
+
+        if(true){
+            const email = 'b@b.com';
+            console.log(email);
+        }
+        console.log(email);// 같은 변수명이어도 전역, 지역에 따라 구분이 된다
+
+        if(x == y){
+            var total = 100;
+            var sum = 200;
+
+            let xlet = 999;
+            alert('total : ' + total)
+            alert('sum : ' + sum)
+            alert('xlet : ' + xlet)
+            alert('email : ' + email)
+        }
+        alert('total2 : ' + total)//var 은 어디서든 전역변수
+        alert('sum2 : ' + sum)//var이 전역변수로 선언되어 값이 있음
+        alert('xlet2 : ' + xlet) //xlet => not defined
+    </script>
+</head>
+<body>
+    <h1>지역변수 scorping</h1>
+
+    <p>지역변수 사용은 let, const 활용</p>
+    <p>let, cosnt 지역변수는 블록"{}"내 선언하여 사용함</p>
+    <p>이것을 블록{} scorping이라고 한다.</p>
+    <br>
+    <p>변수명이 같아도 전역, 지역에 따라 구분된다</p>
+</body>
+</html>
