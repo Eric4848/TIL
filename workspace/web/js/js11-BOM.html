@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        document.write("<h3>브라우저 높이값 : " + window.outerHeight + "</h3>")
+        document.write("<h3>브라우저 너비값 : " + window.outerWidth + "</h3>")
+        document.write("<h3>브라우저 내용의 높이값 : " + window.innerHeight + "</h3>")
+        document.write("<h3>브라우저 내용의 너비값 : " + window.innerWidth + "</h3>")
+
+        document.write("<p><b>screen.availWidth : " + screen.availWidth + "</b></p>")
+        document.write("<p><b>screen.availHeight : " + screen.availHeight + "</b></p>")
+        document.write("<p><b>screen.width : " + screen.width + "</b></p>")
+        document.write("<p><b>screen.height : " + screen.height + "</b></p>")
+
+        document.write("<h3>브라우저 이름 : " + navigator.appNmae + "</h3>")
+        document.write("<h3>브라우저 버전 : " + navigator.appVersion + "</h3>")
+        document.write("<h3>브라우저 코드 : " + navigator.appCodeName + "</h3>")
+        document.write("<h3>브라우저 언어 : " + navigator.language + "</h3>")
+        document.write("<h3>브라우저 이름 : " + navigator.platform + "</h3>")
+        document.write("<h3>이름/버전 : " + navigator.userAgent + "</h3>")
+
+        function winOpen1(){
+            window.open('https://www.naver.com', 'abc', 'width=300px;', 'height=200px;', 'scrollbar=yes')
+        }
+    </script>
+</head>
+<body>
+    <p>BOM은 해당 브라우저에서 제공하는 내장되어있는 객체</p>
+    <input type="button" value="클릭" onclick="winOpen1()">
+</body>
+</html>

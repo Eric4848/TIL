@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            width: 500px;
+            height: 130px;
+            line-height: 130px;
+            text-align: center;
+        }
+        #rect1, #rect2, #rect3{
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+            float: left;
+            border: 1px solid black;
+            margin: 10px;
+            transition: 1s;
+        }
+    </style>
+
+    <script>
+        function sel(){
+            const ck = document.getElementsByName("chk")
+
+            for(let i = 0 ; i < ck.length ; i++){
+                let myRect = document.getElementById(ck[i].value)
+                //체크박스 중 선택된 체크박스 확인
+                if(ck[i].checked == true){
+                    myRect.style.borderRadius = '50%'
+                    myRect.style.backgroundColor = 'green'
+                }else{
+                    myRect.style.borderRadius = ''
+                    myRect.style.backgroundColor = ''
+                }
+            }
+        }
+
+        //  function allSelect(checked){
+        //      const all = document.querySelector("[name=all]")
+        //      const ck = document.getElementsByName("chk")
+        //      for (let i = 0 ; i < ck.length ; i++){
+        //          if (all.checked == true){
+        //              ck[i].checked = true;
+        //          }else{
+        //              ck[i].checked = false;
+        //          }
+        //      }
+        //  }
+
+         function allSelect(checked){
+             const ck = document.getElementsByName("chk")
+             for (let i = 0 ; i < ck.length ; i++){
+                 if (checked){
+                     ck[i].checked = true;
+                 }else{
+                     ck[i].checked = false;
+                 }
+             }
+         }
+
+        function clearAll(){
+            const ck = document.getElementsByName("chk")
+            const all = document.getElementsByName('all')
+            for(let i = 0 ; i < all.length ; i++){
+                all[i].checked = false;
+            }
+            for(let i = 0 ; i < ck.length ; i++){
+                ck[i].checked = false;
+            }
+            sel();
+        }
+    </script>
+</head>
+<body>
+    <div id="container">
+        <div id="rect1">1</div>
+        <div id="rect2">2</div>
+        <div id="rect3">3</div>
+    </div>
+
+    <div id="checkbox">
+        <form action="">
+            <input type="checkbox" name="all" onclick="allSelect(checked)">전체 선택
+            <br>
+            <input type="checkbox" name="chk" value="rect1">1
+            <br>
+            <input type="checkbox" name="chk" value="rect2">2
+            <br>
+            <input type="checkbox" name="chk" value="rect3">3
+            <br>
+            <input type="button" value="Select" onclick="sel()">
+            <input type="button" value="Clear" onclick="clearAll()">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function plus(){
+            n1 = parseInt(document.getElementById('n1').value)
+            n2 = parseInt(document.getElementById('n2').value)
+            sum = n1 + n2
+            document.getElementById('msg').innerHTML = "<span>result is : </span>" + sum
+        }
+
+        function login(){
+            user = document.getElementById('user').value
+            pw = document.getElementById('pw').value
+
+            if(user == 'root' && pw == '1234'){
+                result = 'Login!'
+            }else{
+                result = 'Faild'
+            }
+            document.getElementById('msg1').innerHTML = result
+        }
+    </script>
+</head>
+<body>
+    숫자1: <input type="text" id="n1"><br>
+    숫자2: <input type="text" id="n2"><br>
+    <button onclick="plus()">더하기</button>
+
+    <div id="msg"></div>
+    <hr>
+    아이디: <input type="text" id="user"><br>
+    비밀번호: <input type="password" id="pw"><br>
+    <button onclick="login()">Login</button>
+    <hr>
+    <div id="msg1"></div>
+</body>
+</html>

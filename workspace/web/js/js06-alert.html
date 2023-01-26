@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function alertFunction(){
+            alert('내용 출력(단순 대화창)')
+        }
+
+        function confirmFunction(){
+            if(confirm('배경색을 파란색으로 바꿀까요?')){
+                alert('파랑색으로 바꿉니다.')
+                document.body.style.backgroundColor = 'skyblue'
+            }
+            else{
+                alert('배경을 복구합니다.')
+                document.body.style.backgroundColor = ''
+            }
+        }
+
+        function promptFunction(){
+            let txt = prompt("좋아하는 과목을 선택해주세요\n [1:python 2:html 3:css 4:javascript")
+            if(txt == '1'){
+                alert('Python!')
+            }else if(txt == '2'){
+                alert('HTML!')
+            }else if(txt == '3'){
+                alert('CSS!')
+            }else if(txt == '4'){
+                alert('JavaScript')
+            }else{
+                alert('항목 내에서 선택하세요')
+            }
+        }
+
+        function promptFunction01(){
+            let age = parseInt(prompt('Enter your age'))
+            age++
+            alert("Next year you will be " + age + " years old")
+        }
+    </script>
+</head>
+<body>
+    <h1>window 객체의 대화형 메소드</h1>
+    <p>
+        alert() : 경고, 디버깅에 사용 (return값 없음)
+        <button onclick="alertFunction()">확인</button>
+    </p>
+
+    <p>
+        confirm() : 확인/취소 (return값 존재->T,F)
+        <button onclick="confirmFunction()">확인</button>
+    </p>
+
+    <p>
+        prompt() : 텍스트 입력, 확인/취소버튼 (return값->텍스트,null)
+        <button onclick="promptFunction()">확인</button>
+        <button onclick="promptFunction01()">나이</button>
+    </p>
+</body>
+</html>
