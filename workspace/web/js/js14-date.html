@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // onload : documnet를 읽어오기 전에 선언하면 오류발생
+        onload=function(){
+            const buttonObj = document.getElementsByTagName('button')
+
+            buttonObj[0].onclick = testDate01;
+            buttonObj[1].onclick = testDate02;
+            buttonObj[2].onclick = testDate03;
+            buttonObj[3].onclick = testDate04;
+            buttonObj[4].onclick = testDate05;
+        }
+
+        function testDate01(){
+            const inputDate = document.getElementById('today')
+            const date = new Date()
+
+            inputDate.innerHTML += date.toDateString() + '<br>'
+            inputDate.innerHTML += date.toLocaleDateString() + '<br>'
+            inputDate.innerHTML += date.toLocaleString() + '<br>'
+            inputDate.innerHTML += date.toLocaleTimeString() + '<br>'
+        }
+
+        function testDate02(){
+            const dayOfWeek = ['일', '월', '화', '수', '목', '금', '토']
+
+            const date = new Date()
+
+            const year = date.getFullYear()
+            const month = date.getMonth()
+            const day = date.getDate()
+            const week = date.getDay()
+
+            const today = document.getElementById('today')
+            today.innerHTML = year + '/' + month + '/' + day +'/' + dayOfWeek[week]
+        }
+
+        function testDate03(){
+            const year = 2023
+            const month = 2 - 1 // 1을 빼야한다.
+            const day = 9
+            const date = new Date(year, month, day)
+
+            document.getElementById('specific').innerHTML = date.toLocaleString()
+        }
+
+        function testDate04(){
+            const dates = document.getElementById('dates').value
+            let date = new Date(dates)
+            const inputdates = document.getElementById('inputdate').value
+            date.setDate(date.getDate() + parseInt(inputdates))
+            console.log(date)
+            document.getElementById('result').value = date.toLocaleDateString()
+        }
+
+        function testDate05(){
+            const ed = new Date(document.getElementById('enddate').value)
+            const sd = new Date(document.getElementById('startdate').value)
+            const day = (ed.getTime() - sd.getTime())/1000/60/60/24 // getTime() : 1970.01.01을 기준으로 경과 시간을 ms로 계산
+            console.log(day)
+        }
+    </script>
+</head>
+<body>
+    <h1>오늘 날짜 구하기</h1>
+    <span id="today"></span>
+    <br>
+    <button>오늘 날짜</button>
+    <button>오늘 표현</button>
+
+    <h1>특정 날짜</h1>
+    <span id="specific"></span>
+    <br>
+    <button>특정 날짜</button>
+
+    <h1>경과 날짜 구하기</h1>
+    <label for="">지정날짜</label>
+    <input type="date" id="dates">
+    <br>
+    <label for="">경과일</label>
+    <input type="number" id="inputdate">
+    <br>
+    <label for="">경과 후 날짜</label>
+    <input type="text" id="result" readonly>
+    <br>
+    <button>경과 날짜</button>
+
+    <h1>D-day</h1>
+    <label for="">시작날짜</label>
+    <input type="date" id="startdate">
+    <br>
+    <label for="">종료날짜</label>
+    <input type="date" id="enddate">
+    <br>
+    <label for="">남은 일수</label>
+    <input type="text" id="result2" readonly>
+    <button>D-day</button>
+</body>
+</html>

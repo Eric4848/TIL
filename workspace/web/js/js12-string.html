@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function strTest01(){
+            const str01 = 'string'
+            const str02 = 'test'
+
+            console.log(str01 + str02)
+
+            const concatString = str01.concat(str02,'java','Script')
+            console.log(concatString)
+
+            const joinString = ['a', 'b', 'c', 'd'].join('-')
+            console.log(joinString)
+            // in Python : result = '-'.join(['a', 'b', 'c', 'd'])
+        }
+
+        function strTest02(){
+            const a = 1
+            const b = 2.3
+            const c = true
+            const str = 'AAA'
+            const result = a + b + c + str
+            console.log(result)
+        }
+
+        function strTest03(){
+            const str = prompt('입력하시오')
+            const res = document.querySelector('#res')
+            if(str == '멀캠'){
+                alert('멀캠님 안녕하세요')
+            }else if(str == 'multicampus'){
+                alert('Hello multicampus')
+            }else{
+                res.innerHTML = "다시 확인해 주세요"
+            }
+
+            const numVal = 10
+            if(numVal == '10'){
+                alert('==연산자 사용 : 숫자 10 == 문자 10')
+            }
+            if(numVal === '10'){
+                
+            }else{
+                alert('=== 연산자 사용 : 숫자 10 !== 문자 10')
+            }
+        }
+
+        function strTest04(){
+            const str = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam repellendus dolores nihil sunt modi perspiciatis dignissimos id incidunt. Excepturi rem quibusdam, illo delectus ipsam maiores earum necessitatibus repellendus nesciunt. Voluptates.'
+            const search = prompt('검색할 단어 입력')
+            console.log("indexOf : " + str.indexOf(search))
+            console.log("lastIndexOf : " + str.lastIndexOf(search))
+        }
+
+        function strTest05(){
+            const strVal = '문자열 추출하기, 관련 메소드 : indexOf, subString.'
+            const startIdx = strVal.indexOf(':')
+            const endIdx = strVal.lastIndexOf('.')
+            const result = strVal.substring(startIdx,endIdx)
+            console.log(result)
+        }
+
+        function strTest06(){
+            const prop = prompt('쉼표로 구분하여 키워드를 입력하시오')
+            const propArr = prop.split(',')
+            let propRes = ""
+            //document.querySelector('#res2')
+            for(let i = 0 ; i < propArr.length ; i++){
+                propRes += propArr[i] + "<br>"
+            }
+            document.querySelector('#res2').innerHTML = propRes
+        }
+    </script>
+</head>
+<body>
+    <p>
+        문자열 합치기
+        <button onclick="strTest01()">확인</button>
+    </p>
+
+    <p>
+        다른 자료형 합치기
+        <button onclick="strTest02()">확인</button>
+    </p>
+
+    <p>
+        문자열 비교하기
+        <button onclick="strTest03()">확인</button>
+    </p>
+    <span id="res"></span>
+
+    <p>
+        문자열 검색하기
+        <button onclick="strTest04()">확인</button>
+    </p>
+    
+    <p>
+        문자열 추출하기
+        <button onclick="strTest05()">확인</button>
+    </p>
+    
+    <p>
+        키워드 나누기
+        <button onclick="strTest06()">확인</button>
+    </p>
+    <span id="res2"></span>
+
+</body>
+</html>

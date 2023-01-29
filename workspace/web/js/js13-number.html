@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function numberObj(){
+            const num01 = 3
+            const num02 = new Number(3)
+
+            console.log(typeof(num01),typeof(num02))
+            console.log((num01 == num02), (num01 === num02))
+
+            console.log(parseInt('1') + 1)
+            console.log(parseInt('1.5') + 1)
+            console.log(parseFloat('1.5') + 1)
+
+            const num = prompt('Enter Number')
+            if(isNaN(num)){
+                alert('Not a Number')
+            }else{
+                alert('Number')
+            }
+        }
+
+        function randomNum(){
+            const ran = Math.random()
+            console.log(ran)
+        }
+
+        function randomBG(){
+            const ran = function(){
+                return Math.round(Math.random()*255)
+            }
+            document.body.style.backgroundColor = "rgb(" + ran() + "," + ran() + "," + ran() + ")"
+        }
+
+        function randomCircle(){
+            let ran = Math.round(Math.random() * 200)
+            let circle = document.getElementById('circle')
+
+            circle.style.height = ran + 'px'
+            circle.style.width = ran + 'px'
+            circle.style.border = '1px solid black'
+            circle.style.borderRadius = '50%'
+        }
+    </script>
+</head>
+<body>
+    <h1>숫자</h1>
+    
+    <button onclick="numberObj()">숫자</button>
+    <button onclick="randomNum()">난수</button>
+    <button onclick="randomBG()">난수활용(배경색)</button>
+    <button onclick="randomCircle()">원그리기</button>
+    <br><br><br><br><br>
+    <div id="circle"></div>
+</body>
+</html>

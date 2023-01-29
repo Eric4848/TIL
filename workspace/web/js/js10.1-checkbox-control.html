@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #colorbox{
+            width: 320px;
+            height: 320px;
+            position: relative;
+        }
+
+        #red, #green, #blue, #yellow{
+            width: 150px;
+            height: 150px;
+            border: 1px solid black;
+            position: absolute;
+        }
+
+        #green{
+            left: 160px;
+        }
+
+        #blue{
+            top: 160px;
+        }
+
+        #yellow{
+            left: 160px;
+            top: 160px;
+        }
+    </style>
+
+    <script>
+        // function selectAll(checked){
+        //     const cb = document.getElementsByName('chk')
+        //     for(i = 0 ; i < cb.length ; i++){
+        //         if(checked){
+        //             cb[i].checked = true
+        //         }else{
+        //             cb[i].checked = false
+        //         }
+        //     }
+        // }
+
+        function selectAll(){
+            const cAll = document.getElementsByName('all')[0]
+            const cb = document.getElementsByName('chk')
+
+            for(i = 0 ; i < cb.length ; i++){
+                cb[i].checked = cAll.checked
+            }
+        }
+
+        function check(){
+            const cb = document.getElementsByName('chk')
+            for(i = 0 ; i < cb.length ; i++){
+                let cbv = document.getElementById(cb[i].value)
+                if(cb[i].checked == true){
+                    cbv.style.backgroundColor = cbv.id
+                }else{
+                    cbv.style.backgroundColor = ''
+                }
+            }
+        }
+
+        function clearAll(){
+            document.getElementsByName('all')[0].checked = false; //[0]으로 선택해야한다.
+            const cb = document.getElementsByName('chk')
+            for(i = 0 ; i < cb.length ; i++){
+                cb[i].checked = false
+            }
+            check();
+        }
+    </script>
+</head>
+<body>
+    <div id="colorbox">
+        <div id="red">red</div>
+        <div id="green">green</div>
+        <div id="blue">blue</div>
+        <div id="yellow">yellow</div>
+    </div>
+
+    <input type="checkbox" name="all" onclick="selectAll()">전체선택
+    <br>
+    <input type="checkbox" name="chk" value="red">빨강
+    <br>
+    <input type="checkbox" name="chk" value="green">초록
+    <br>
+    <input type="checkbox" name="chk" value="blue">파랑
+    <br>
+    <input type="checkbox" name="chk" value="yellow">노랑
+    <br>
+    <br>
+    <input type="button" value="선택" onclick="check()">
+    <input type="button" value="clear" onclick="clearAll()">
+</body>
+</html>
