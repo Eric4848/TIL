@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function eleCreate(){
+            let div = document.createElement('div')
+            let txt = document.createTextNode('엘리먼트 생성')
+            div.appendChild(txt)
+            console.log(div)
+            document.body.appendChild(div)
+            //let attr = document.createAttribute('style')
+            // attr.nodeValue = 'border: 2px solid blue'
+            // div.setAttributeNode(attr)
+            div.setAttribute('style', 'border: 2px solid red')
+        }
+    </script>
+</head>
+<body>
+    <button onclick="eleCreate()">엘리먼트 생성하기</button>
+</body>
+</html>

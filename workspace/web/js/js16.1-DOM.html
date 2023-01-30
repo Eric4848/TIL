@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            background-color: white;
+        }
+    </style>
+    <script>
+        function searchPar(){
+            const child02 = document.getElementsByTagName('p')[1]
+            const div = child02.parentNode
+
+            console.log(child02, div.nodeName)
+            div.style.backgroundColor = 'pink'
+        }
+
+        function searchChi(){
+            const div = document.getElementsByTagName('div')[0]
+            let divChi = div.childNodes
+
+            console.log(divChi)
+            console.log(divChi[1])
+            console.log(divChi[3])
+            console.log(divChi[5])
+
+            divChi[3].sytle.backgroundColor = 'blue';
+        }
+    </script>
+</head>
+<body>
+    <h1>부모탐색, 자식탐색</h1>
+
+    <div>
+        <p>child01</p>
+        <p>child02</p>
+        <p>child03</p>
+    </div>
+
+    <button onclick="searchPar()">부모탐색 child02.parentNode</button>
+    <br>
+    <br>
+    <button onclick="searchChi()">자식탐색 div.childNodes</button>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function newRegister(){
+        let newlist = document.createElement('li')
+        let sub = document.querySelector('#subject')
+        let newSub = document.createTextNode(sub.value)
+        newlist.appendChild(newSub)
+        let list = document.querySelector('#itemlist')
+        list.insertBefore(newlist, list.childNodes[0])
+
+        //subject.value=""
+
+        let items = document.querySelector(li);
+        for(i=0;i<items.length;i++){
+            items[i].addEventListener('click',function(){
+                if(this.parentNode){
+                    this.parentNode.removeChild(this)
+                }
+            })
+        }
+    }
+</script>
+<body>
+    <h1>Web Programming</h1>
+    <p>공부할 주제를 기록해 보세요</p>
+    <p>공부가 끝난 것은 클릭해서 삭제할 수 있습니다</p>
+    <form action="">
+        <input type="text" id="subject" aoutofocus>
+        <button onclick="newRegister(); return false">추가</button>
+    </form>
+    <hr>
+    <ul id="itemlist"></ul>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            vertical-align: middle;
+            width: 300px;
+            height: 300px;
+        }
+
+        a{
+            font-size: 30px;
+            text-decoration: none;
+        }
+    </style>
+    <script>
+        const left = document.getElementById('lt')
+        const right = document.querySelector('#rt')
+        const image = document.querySelector('img')
+        console.log(left, right, image)
+        let inum = 1
+        function prev(){
+            inum--
+            if (inum<1){
+                inum = 7
+            }
+            document.getElementsByTagName('img')[0].src = '../image/00' + inum + '.jfif'
+        }
+        function next(){
+            inum++
+            if (inum>7){
+                inum = 1
+            }
+            document.getElementsByTagName('img')[0].src = '../image/00' + inum + '.jfif'
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <a href="#" id="lt">◀</a>
+        <img src="../image/001.jfif" alt="001">
+        <a href="#" id="rt">▶</a>
+    </div>
+</body>
+</html>

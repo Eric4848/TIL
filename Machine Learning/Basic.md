@@ -27,3 +27,13 @@
 >Cardinality를 증가시켜 성능을 향상시킨다
 - Crdinality : 채널수를 분할하는 그룹의 수
 - Width : 채널 수
+
+## momentum
+> local minimum이나 saddle point에서 학습이 중단되는것을 막기 위해 이전 기울기에 크기를 고려하여 추가로 이동시키는 것
+- 적절한 값 사용이 중요
+- 보통 0.9를 사용
+
+## learning rate(lr)
+> 경사하강법에서의 계수
+- 적절한 값 사용이 중요
+- 보통 0.01을 사용

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            list-style: none;
+        }
+
+        li{
+            font-size: 20px;
+            line-height: 35px;
+        }
+
+        .check{
+            color: #dddddd;
+            font-size: 20px;
+            margin-right: 25px;
+        }
+    </style>
+
+    <script>
+        function checked(num){
+            const chk = document.getElementsByTagName('li')[num]
+            chk.style.textDecoration = 'line-through'
+        }
+    </script>
+</head>
+<body>
+    <h1>할 일 목록</h1>
+    <ul>
+        <li><span class="check" onclick="checked(0)">&check;</span>할 일 1</li>
+        <li><span class="check" onclick="checked(1)">&check;</span>할 일 2</li>
+        <li><span class="check" onclick="checked(2)">&check;</span>할 일 3</li>
+        <li><span class="check" onclick="checked(3)">&check;</span>할 일 4</li>
+        <li><span class="check" onclick="checked(4)">&check;</span>할 일 5</li>
+    </ul>
+</body>
+</html>

@@ -24,10 +24,32 @@
         a {
             text-decoration: none;
         }
+        
+        #number {
+            width: 180px;
+            text-align: center;
+        }
     </style>
     <script>
+        let num = 1
         function prevImg() {
             //document.getElementById('gallery').scr =
+            num--
+            if (num<1){
+                num=7
+            }
+            document.getElementById('gallery').src = '../image/00' + num + '.jfif'
+            document.getElementById('number').innerHTML = num + '번째 사진'
+            //return false => 이벤트가 동시에 일어나는 것을 막아준다.
+        }
+
+        function nextImg() {
+            num++
+            if (num>7){
+                num=1
+            }
+            document.getElementById('gallery').src = '../image/00' + num + '.jfif'
+            document.getElementById('number').innerHTML = num + '번째 사진' 
         }
     </script>
 </head>
@@ -35,10 +57,12 @@
 <body>
     <div id="wrap">
         <p>
+            <!-- <a href="https://www.naver.com" onclick='return prevImg()'> -->
             <img src="../image/left.png" onclick='prevImg()' alt="이전그림">
-            <img src="../image/001.jpg" alt="gallery" id="gallery">
+            <!-- </a> -->
+            <img src="../image/001.jfif" alt="gallery" id="gallery">
             <img src="../image/right.png" onclick='nextImg()' alt="다음그림">
-
+            <p id="number">1번째 사진</p>
         </p>
     </div>
 </body>

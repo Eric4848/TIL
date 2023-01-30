@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #imgView, img{
+            width: 300px;
+            height: 300px;
+            background-color: gray;
+        }
+    </style>
+
+    <script>
+         function createImg(){
+             let rad = document.getElementsByName('rdo')
+             for (i = 0 ; i < rad.length ; i++){
+                 if(rad[i].checked){
+                    document.querySelector('#imgView>img').setAttribute = ('src', '"../image/" + rad[i].value')
+                    console.log(document.querySelector('#imgView>img'))
+                    console.log("../image/" + rad[i].value)
+                 }
+             }
+         }
+
+        // function createImg(){
+        //     const rdos = document.getElementsByName('rdo')
+        //     let radioVal = ''
+        //     for(i = 0 ; i < rdos.length ; i++){
+        //         if(rdos[i].checked){
+        //             radioVal = "../image/" + rdos[i].value
+        //         }
+        //         document.getElementById('imgView').setAttribute('src', radioVal)
+        //         console.log(radioVal)
+        //     }
+        // }
+
+        function deleteImg(){
+            document.getElementById('imgView').innerHTML = "<img src=''>"
+        }
+    </script>
+</head>
+<body>
+    <input type="radio" name="rdo" value="001.jfif">img01 <br>
+    <input type="radio" name="rdo" value="002.jfif">img02 <br>
+    <input type="radio" name="rdo" value="003.jfif">img03 <br>
+
+    <button onclick="createImg()">이미지생성</button>
+    <button onclick="deleteImg()">이미지삭제</button>
+
+    <div id="imgView"><img src="" id="imgtag"></div>
+</body>
+</html>
