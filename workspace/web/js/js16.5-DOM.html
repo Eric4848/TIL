@@ -16,15 +16,16 @@
     <script>
          function createImg(){
              let rad = document.getElementsByName('rdo')
+             let show = document.querySelector('#imgtag')
              for (i = 0 ; i < rad.length ; i++){
                  if(rad[i].checked){
-                    document.querySelector('#imgView>img').setAttribute = ('src', '"../image/" + rad[i].value')
-                    console.log(document.querySelector('#imgView>img'))
+                    console.log(rad[i].value)
+                    console.log(show)
                     console.log("../image/" + rad[i].value)
+                    show.innerHTML = '<img src="' + '..image/' + rad[i].value + '.jfif">'
                  }
              }
          }
-
         // function createImg(){
         //     const rdos = document.getElementsByName('rdo')
         //     let radioVal = ''
@@ -43,13 +44,13 @@
     </script>
 </head>
 <body>
-    <input type="radio" name="rdo" value="001.jfif">img01 <br>
-    <input type="radio" name="rdo" value="002.jfif">img02 <br>
-    <input type="radio" name="rdo" value="003.jfif">img03 <br>
+    <input type="radio" name="rdo" value="001">img01 <br>
+    <input type="radio" name="rdo" value="002">img02 <br>
+    <input type="radio" name="rdo" value="003">img03 <br>
 
     <button onclick="createImg()">이미지생성</button>
     <button onclick="deleteImg()">이미지삭제</button>
 
-    <div id="imgView"><img src="" id="imgtag"></div>
+    <div id="imgView"><img src="../image/001.jfif" id="imgtag"></div>
 </body>
 </html>

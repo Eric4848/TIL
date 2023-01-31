@@ -8,23 +8,12 @@
 </head>
 <script>
     function newRegister(){
-        let newlist = document.createElement('li')
-        let sub = document.querySelector('#subject')
-        let newSub = document.createTextNode(sub.value)
-        newlist.appendChild(newSub)
-        let list = document.querySelector('#itemlist')
-        list.insertBefore(newlist, list.childNodes[0])
-
-        //subject.value=""
-
-        let items = document.querySelector(li);
-        for(i=0;i<items.length;i++){
-            items[i].addEventListener('click',function(){
-                if(this.parentNode){
-                    this.parentNode.removeChild(this)
-                }
-            })
-        }
+        const newLi = document.createElement('li')
+        const itemList = document.querySelector('#itemlist')
+        let subject = documnet.querySelector('#subject').value
+        newLi.textContent = subject
+        itemList.insertBefore(newLi, itemList.childNodes[0])
+        subject.value = ''
     }
 </script>
 <body>

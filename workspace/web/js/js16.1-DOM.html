@@ -20,15 +20,15 @@
         }
 
         function searchChi(){
-            const div = document.getElementsByTagName('div')[0]
-            let divChi = div.childNodes
+            const div = document.querySelectorAll('div')[0];
+            let divChi = div.childNodes;
 
-            console.log(divChi)
-            console.log(divChi[1])
-            console.log(divChi[3])
-            console.log(divChi[5])
+            console.log(divChi);
+            console.log(divChi[1]);
+            console.log(divChi[3]);
+            console.log(divChi[5]);
 
-            divChi[3].sytle.backgroundColor = 'blue';
+            divChi[3].style.backgroundColor = 'red';
         }
     </script>
 </head>
