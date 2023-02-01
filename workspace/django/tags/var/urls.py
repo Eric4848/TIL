@@ -8,4 +8,6 @@ urlpatterns = [
     path('for/', views.testfor),
     path('if01/', views.if01),
     path('if02/', views.if02),
+    path('request/', views.get_post),
+    path('statics/', views.staticTest),
 ]
