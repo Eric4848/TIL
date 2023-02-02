@@ -38,11 +38,51 @@
         {% endfor %}
         {% endif %}
         <tr>
-            <td colspan="4" text-align="right">
+            <td colspan="4" text-align="right" align="right">
                 <input type="button" value="글작성" onclick="locationhref()">
             </td>
         </tr>
     </table>
+
+    <!-- <a href="?page=1">처음 페이지</a>
+
+    {% if list.number == 1 %}
+    <a href="?page={{list.next_page_number}}">다음 페이지</a>
+
+    {% elif list.number == list.paginator.num_pages%}
+    <a href="?page={{list.previous_page_number}}">이전 페이지</a>
+
+    {% else %}
+    <a href="?page={{list.previous_page_number}}">이전 페이지</a>
+
+    <a href="?page={{list.next_page_number}}">다음 페이지</a>
+
+    {% endif %}
+    <a href="?page={{list.paginator.num_pages}}">마지막 페이지</a> -->
+    <a href="?page=1">처음 페이지</a>
+
+    {% if list.has_previous %}
+    <a href="?page={{list.previous_page_number}}">이전 페이지</a>
+    {% else %}
+    <a href="">이전 페이지</a>
+    {% endif %}
+
+    {% for i in list.paginator.page_range %}
+    {% if list.number == i %}
+    <a>{{i}}</a>
+    {% else %}
+    <a href="?page={{i}}">{{i}}</a>
+    {% endif %}
+    {% endfor %}
+
+    {% if list.has_next %}
+    <a href="?page={{list.next_page_number}}">다음 페이지</a>
+    {% else %}
+    <a href="">다음 페이지</a>
+    {% endif %}
+
+    <a href="?page={{list.paginator.num_pages}}">마지막 페이지</a>
+
 </body>
 
 </html>
