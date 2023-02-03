@@ -11,6 +11,13 @@
 <body>
     <h1>Hello, Django</h1>
 
+    <h3><a href="{% url 'register' %}">회원가입</a></h3>
+    {% if request.session.login_user %}
+    <h3><a href="{% url 'logout' %}">로그아웃</a></h3>
+    {% else %}
+    <h3><a href="{% url 'login' %}">로그인</a></h3>
+    {% endif %}
+
     <table border="1">
         <col width="50">
         <col width="100">

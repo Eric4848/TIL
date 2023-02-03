@@ -1,4 +1,4 @@
-"""MyBoard URL Configuration
+"""myphoto URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.1/topics/http/urls/
@@ -14,19 +14,9 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
-from . import views
+from django.urls import path, include
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('', views.index, name='index'),
-    path('insert_form/', views.insert_form, name='forminsert'),
-    path('insertres/', views.insert_proc, name='insertres'),
-    path('detail/<int:id>', views.detail, name='detail'),
-    path('delete/<int:id>', views.delete, name='delete'),
-    path('updateform/<int:id>', views.updateform, name='update'),
-    path('updateres/<int:id>', views.updateres, name='updateres'),
-    path('register/', views.register, name='register'),
-    path('login/', views.login, name='login'),
-    path('logout/', views.logout, name='logout'),
+    path("", include('photo.urls')),
 ]

@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from .models import MyBoard
+from .models import MyBoard, MyMember
 from django.utils import timezone
 from django.core.paginator import Paginator
 
@@ -95,3 +95,39 @@ def updateres(request, id):
         return redirect('/detail/' + str(id))  # 주소에는 문자열만 가능
     else:
         return redirect('/updateform/' + idn)
+
+
+def register(request):
+    if request.method == 'GET':
+        return render(request, 'register.html')
+
+    elif request.method == 'POST':
+        newname = request.POST['name']
+        newpassword = request.POST['password']
+        newemail = request.POST['email']
+        result = MyMember.objects.create(
+            myname=newname, mypassword=newpassword, myemail=newemail)
+        if result:
+            return redirect('index')
+        else:
+            return redirect('register')
+
+
+def login(request):
+    if request.method == 'GET':
+        return render(request, 'login.html')
+    elif request.method == 'POST':
+        login_name = request.POST['name']
+        login_password = request.POST['password']
+        login_data = MyMember.objects.get(myname=login_name)
+
+        if login_password == login_data.mypassword:
+            request.session['login_user'] = login_data.myname
+            return redirect('index')
+        else:
+            return redirect('login')
+
+
+def logout(request):
+    del request.session['login_user']
+    return redirect('index')
