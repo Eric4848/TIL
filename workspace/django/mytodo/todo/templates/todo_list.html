@@ -37,14 +37,34 @@
         {% endfor %}
       </ul>
       <!-- 하단 페이지 -->
-      <div class="">
+      <div class="page-item pagination justify-content-center">
         <!-- 처음으로 -->
         <a href="?page=1">처음</a>
 
         <!-- 이전페이지  -->
-
+        {% if todos.has_previous %}
+        <a href="?page={{todos.previous_page_number}}">이전페이지</a>
+        {% else %}
+        <a href="">이전페이지</a>
+        {% endif %}
         <!-- 페이징 -->
+        <div class="page-item">
+          {% for i in todos.paginator.page_range %}
+            {% if i >= todos.number|add:-4 and i <= todos.number|add:+4 %}
+              {% if todos.number == i %}
+                <a>{{i}}</a>
+              {% else %}
+                <a href="?page={{i}}">{{i}}</a> 
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </div>
         <!-- 다음페이지  -->
+        {% if todos.has_next %}
+        <a href="?page={{todos.next_page_number}}">다음페이지</a>
+        {% else %}
+        <a href="">다음페이지</a>
+        {% endif %}
         <!-- 끝으로 -->
         <a href="?page={{todos.paginator.num_pages}}">끝</a>
       </div>
