@@ -1,31 +1,53 @@
-
 <html lang="en">
-
-<body>
+  <body>
     <div id="root"></div>
-</body>
+  </body>
 </html>
 <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 <script type="text/babel">
-    function App(){
-        const[minutes, setMinutes] = React.useState()
-        const onChange = (event) => {
-        setMinutes(event.target.value)
-    ;}
-    return(
+  function App() {
+    const [amount, setAmount] = React.useState(0);
+    const [flipped, setFlipped] = React.useState();
+    const onChange = (event) => {
+      setAmount(event.target.value);
+    };
+    const reset = () => setAmount(0);
+    const onFlip = () => {
+      reset();
+      setFlipped((current) => !current);
+    };
+    return (
+      <div>
+        <h1 className='hi'>Super Converter</h1>
         <div>
-            <h1 className="hi">Super Converter</h1>
-            <label htmlFor="minutes">Minutes</label>
-            <input valeu="{minutes}" id="minutes" placeholder="Minutes" type="number" onChange={onChange}/>
-            <h4>You want to convert {minutes}</h4>
-            <label htmlFor="hours">Hours</label>
-            <input id="hours" placeholder="Hours" type="number" />
+          <label htmlFor='minutes'>Minutes</label>
+          <input
+            value={flipped ? amount * 60 : amount}
+            id='minutes'
+            placeholder='Minutes'
+            type='number'
+            onChange={onChange}
+            disabled={flipped === true}
+          />
         </div>
-        );
-    }
-    const root = document.getElementById("root")
-    ReactDOM.render(<App />, root);    
-
+        <div>
+          <label htmlFor='hours'>Hours</label>
+          <input
+            value={flipped ? amount : Math.round(amount / 60)}
+            id='hours'
+            placeholder='Hours'
+            type='number'
+            onChange={onChange}
+            disabled={!flipped === true}
+          />
+        </div>
+        <button onClick={reset}>Reset</button>
+        <button onClick={onFlip}>Flip</button>
+      </div>
+    );
+  }
+  const root = document.getElementById("root");
+  ReactDOM.render(<App />, root);
 </script>
