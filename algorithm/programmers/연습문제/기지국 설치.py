@@ -6,6 +6,8 @@ def solution(n, stations, w):
 
         if i == 0:
             connect = stations[0] - w - 1
+        elif i == len(stations) - 1:
+            connect = stations[i] - stations[i-1] - w
         else:
             connect = stations[i] - stations[i-1] - 2 * w - 1
 
@@ -20,6 +22,8 @@ def solution(n, stations, w):
 
 print(solution(11, [4, 11], 1))
 print(solution(16, [9], 2))
+print(solution(11, [1, 5], 1))
+print(solution(5, [1, 2, 3, 4, 5], 0))
 
 
 # def solution(n, stations, w):
