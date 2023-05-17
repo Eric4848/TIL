@@ -18,3 +18,22 @@ window.onload = function () {
   window.addEventListener("resize", div2Resize);
 };
 ```
+
+## 크기변화 관찰하기
+
+> 크기의 html 크기의 변화를 관찰하여
+
+```javascript
+function resize() {
+  const $target = document.querySelector("#ul1");
+  const observer = new ResizeObserver((entries) => {
+    entries.forEach((entry) => {
+      var ul1 = document.getElementById("ul1");
+      var div2 = document.getElementById("content");
+      div2.style.height = ul1.scrollHeight + 32 + "px";
+    });
+  });
+
+  observer.observe($target);
+}
+```
