@@ -18,3 +18,5 @@
 ```python
 [db명].filter([column명]__range = [작은조건, 큰조건])
 ```
+
+## models(table) join
