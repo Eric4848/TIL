@@ -1,7 +1,10 @@
+import sys   # 빠른 입력용
 from collections import Counter
 
-T = int(input())
-nums = [int(input()) for _ in range(T)]
+# T = int(input())
+T = int(sys.stdin.readline())   # sys.stdin.readline()을 사용해야 시간초과가 안뜬다.
+# nums = [int(input()) for _ in range(T)]
+nums = [int(sys.stdin.readline()) for _ in range(T)]
 nums.sort()
 counts = Counter(nums).most_common()
 

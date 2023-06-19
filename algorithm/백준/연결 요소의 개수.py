@@ -1,4 +1,7 @@
+import sys
 from collections import deque
+
+input = sys.stdin.readline   # sys.stdin.readline을 사용해야 시간초과가 안나옴 / input을 바꾸어줄 수 있다.
 
 N, M = map(int, input().split())
 matrix = [[] for _ in range(N+1)]   # 인덱스 번호를 맞추기 위해 N+1까지 생성
