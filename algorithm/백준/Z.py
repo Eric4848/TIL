@@ -1,15 +1,20 @@
+# 전체를 4등분 하여 계산 -> Z 순서로 계산하기 때문
 N, r, c = map(int, input().split())
 answer = 0
-while N != 0:
-    N -= 1
-    x = 2 ** N
-    if r < x and c < x:
-        continue
-    elif r < x and x <= c:
-        answer += x * x
-    elif x <= r and c < x:
-        answer += x * x * 2
-    else:
-        answer += x * x * 3
+while N != 0:   # 가로, 세로의 길이가 2^N이고 각각 2등분 하면 2^(N-1)이된다. N >= 1 이어야 최소인 4개가 되므로 N != 0 조건
+    N -= 1   # 이를 계산하기 위해 N-1을 해준다
+    x = 2 ** N   # 4등분한 전체의 한 칸의 가로, 세로 길이
+    if r < x and c < x:   # 1번째인 왼쪽 위인 경우
+        continue   # 그냥 넘어간다
+    elif r < x and x <= c:   # 2번째인 오른쪽 위인 경우
+        answer += x * x   # 1번째를 전부 채우고 와야 하므로 x * x를 더해준다
+        c -= x   # c에서 x만큼 빼서 2^(N-1)범위 안으로 넣어준다
+    elif x <= r and c < x:   # 3번째인 왼쪽 아래인 경우
+        answer += 2 * x * x   # 1, 2번째를 전부 채우고 와야 하므로 2 * x * x를 더해준다
+        r -= x   # r에서 x만큼 빼서 2^(N-1)범위 안으로 넣어준다
+    else:   # 4번째인 왼쪽 아래인 경우
+        answer += 3 * x * x    # 1, 2, 3번째를 전부 채우고 와야 하므로 3 * x * x를 더해준다
+        r -= x   # r과
+        c -= x   # c에서 x만큼 빼서 2^(N-1)범위 안으로 넣어준다
 
 print(answer)
