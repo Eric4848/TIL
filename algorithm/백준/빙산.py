@@ -1,4 +1,4 @@
-# 오답
+# 시간 초과
 import sys
 
 sys.setrecursionlimit(10 ** 9)
@@ -31,22 +31,25 @@ def check(r, c):
 
 
 def decre():
+    temp = [[0] * M for _ in range(N)]
     for r in range(N):
         for c in range(M):
             if ices[r][c] != 0:
+                temp[r][c] = ices[r][c]
                 for i in range(4):
                     nr = r + dr[i]
                     nc = c + dc[i]
                     if 0 <= nr < N and 0 <= nc < M:
                         if ices[nr][nc] == 0:
-                            if 0 < ices[r][c]:
-                                ices[r][c] -= 1
+                            if 0 < temp[r][c]:
+                                temp[r][c] -= 1
+    return temp
 
 
 while True:
     answer += 1
     total = 0
-    is_chk = [[False]*M for _ in range(N)]
+    is_chk = [[False] * M for _ in range(N)]
     for i in range(N):
         total += sum(ices[i])
 
@@ -55,7 +58,7 @@ while True:
         print(answer)
         break
 
-    decre()
+    ices = decre()
     cnt = count()
     if 1 < cnt:
         print(answer)
