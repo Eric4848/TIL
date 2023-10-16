@@ -142,7 +142,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -159,7 +160,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "7f4fa7562e246a60",
+  "active": "d3c6ed8b48f3fc0b",
   "lastOpenFiles": [
     "그래프/플로이드 - 워셜.md",
     "다이나믹 프로그래밍/동전.md",
