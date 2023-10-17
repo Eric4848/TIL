@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "55848b8d488b6c7a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -160,7 +170,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d3c6ed8b48f3fc0b",
+  "active": "55848b8d488b6c7a",
   "lastOpenFiles": [
     "그래프/플로이드 - 워셜.md",
     "다이나믹 프로그래밍/동전.md",
