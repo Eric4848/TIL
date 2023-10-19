@@ -97,14 +97,38 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Programming/C++/c++.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "173f32d5ecac7236",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Programming/C++/C++ functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c23fe9509e4d41eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/C++/함수.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -170,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/C++/C++ functions.md",
+                "file": "Programming/C++/함수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/C++/C++ functions.md",
+                "file": "Programming/C++/함수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/C++/C++ functions.md"
+                "file": "Programming/C++/함수.md"
               }
             }
           }
@@ -231,11 +255,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "265a92f981854982",
+  "active": "c23fe9509e4d41eb",
   "lastOpenFiles": [
-    "Programming/C++/Class.md",
-    "Programming/C++/c++.md",
     "Programming/C++/C++ functions.md",
+    "Programming/C++/함수.md",
+    "Programming/C++/변수.md",
+    "Programming/C++/c++.md",
+    "Programming/C++/Class.md",
     "Modeling Mode.md",
     "Atmospheric Light.md",
     "Content Browser.md",

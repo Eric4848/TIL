@@ -13,4 +13,4 @@
 ## 3. 컴파일
 - cmd에서 LiveCoding.Compile 입력
 - Ctrl + Alt + F11
-- Unreal Editor 종료 > VS 상단 Build > Rebuild Solution > 다시 시
+- Unreal Editor 종료 > VS 상단 Build > Rebuild Solution > 다시 시작
