@@ -1,4 +1,4 @@
-# 시간 초과
+# 시간 초과(PyPy3로 제출 시 성공)
 R, C, T = map(int, input().split())
 home = [list(map(int, input().split())) for _ in range(R)]
 dr = [1, -1, 0, 0]
