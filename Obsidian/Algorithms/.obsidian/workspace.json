@@ -8,7 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5790b022402090bb",
+            "id": "ceef1791d76a10f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "그래프/프림(Prim).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4f62ed13f273f040",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,45 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "7f4fa7562e246a60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "다이나믹 프로그래밍/동전.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "55848b8d488b6c7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "그래프/벨만 - 포드.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ceef1791d76a10f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "검문 - 백준.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "검문 - 백준.md",
+                "file": "그래프/플로이드 - 워셜.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "검문 - 백준.md",
+                "file": "그래프/플로이드 - 워셜.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "검문 - 백준.md"
+                "file": "그래프/플로이드 - 워셜.md"
               }
             }
           }
@@ -184,12 +160,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ceef1791d76a10f7",
+  "active": "4f62ed13f273f040",
   "lastOpenFiles": [
-    "그래프/벨만 - 포드.md",
-    "검문 - 백준.md",
+    "그래프/프림(Prim).md",
+    "그래프/크루스칼(Kruskal).md",
     "그래프/플로이드 - 워셜.md",
     "다이나믹 프로그래밍/동전.md",
+    "검문 - 백준.md",
+    "그래프/벨만 - 포드.md",
     "2023-10-13.md",
     "무제 파일.canvas",
     "다이나믹 프로그래밍",
