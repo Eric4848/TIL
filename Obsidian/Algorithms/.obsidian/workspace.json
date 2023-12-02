@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "그래프/플로이드 - 워셜.md",
+                "file": "검문 - 백준.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5fb2a7cb00a191bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타 레슨 - 백준.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "그래프/플로이드 - 워셜.md",
+                "file": "기타 레슨 - 백준.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "그래프/플로이드 - 워셜.md",
+                "file": "기타 레슨 - 백준.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "그래프/플로이드 - 워셜.md"
+                "file": "기타 레슨 - 백준.md"
               }
             }
           }
@@ -160,13 +172,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "4f62ed13f273f040",
+  "active": "5fb2a7cb00a191bd",
   "lastOpenFiles": [
+    "검문 - 백준.md",
+    "기타 레슨 - 백준.md",
+    "그래프/플로이드 - 워셜.md",
     "그래프/프림(Prim).md",
     "그래프/크루스칼(Kruskal).md",
-    "그래프/플로이드 - 워셜.md",
     "다이나믹 프로그래밍/동전.md",
-    "검문 - 백준.md",
     "그래프/벨만 - 포드.md",
     "2023-10-13.md",
     "무제 파일.canvas",
