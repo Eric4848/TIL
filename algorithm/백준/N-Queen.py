@@ -58,4 +58,4 @@ def dfs(r):
 
 dfs(0)
 
-print(answer)
+print(answer[0])
