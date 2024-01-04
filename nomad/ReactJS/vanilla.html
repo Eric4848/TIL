@@ -1,41 +1,68 @@
 <!DOCTYPE html>
 
 <body>
-    <div id="root"></div>
+  <div id="root"></div>
 </body>
 
 </html>
+<!-- React -->
 <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<!-- JSX -->
 <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 <script type="text/babel">
-    // const h3 = React.createElement(
-    //     "h3",
-    //     {onMouseEnter: () => console.log("mouse entered")},
-    //     "This is a text");
-    // const btn = React.createElement(
-    //     "button", 
-    //     {
-    //         onClick: () => console.log("I'm Clicked")
-    //     }, 
-    //     "Click me!");
-    // const container = React.createElement("div", null, [Title, Button])
-    // ReactDOM.createRoot(root).render(container);
-    // 반드시 대문자로 시작 => tag와 구분하기 위해
-    const Title = () => (
-        <h3 id="title" onMouseEnter={() => console.log("mouse entered")}>
-            This is a text
-        </h3>
-    );
+  // <script>
+  // 정석 방법
+  // 반드시 대문자로 시작 => tag와 구분하기 위해
+  // const Title = React.createElement(
+  //   "h3",
+  //   {
+  //     id: "title",
+  //     onMouseEnter: () => console.log("mouse entered")
+  //   },
+  //   "This is a text"
+  // );
+  // const Button = React.createElement(
+  //   "button",
+  //   {
+  //     onClick: () => console.log("I'm Clicked")
+  //   },
+  //   "Click me!"
+  // );
+  // const container = React.createElement("div", null, [Title, Button])
+  // ReactDOM.createRoot(root).render(container);
+
+  // JSX
+  // const root = document.querySelector("#root")
+  // const Title = (
+  //   <h3
+  //     id="title"
+  //     onMouseEnter={() => console.log("mouse entered")}>Thils is a title</h3>
+  // );
+  // const Button = (
+  //   <Button
+  //     onClick={() => console.log("I'm Clicked")}>Click me!</Button>
+  // );
+  // const container = React.createElement("div", null, [Title, Button]);
+  // ReactDOM.createRoot(root).render(container);
+
+  const Title = () => (
+    <h3 id="title" onMouseEnter={() => console.log("mouse entered")}>
+      This is a text
+    </h3>
+  );
     const Button = () => (
-        <button style={{backgroundColor:"red"}} onClick={()=> console.log("I'm Clicked")}>Click me!</button>
+      <button style={{ backgroundColor: "red" }} onClick={() => console.log("I'm Clicked")}>
+        Click me!
+        </button>
     );
     const Container = <div>
-        <Title />  
-        <Button />
-        <Button />
-        <Button />
-        <Button />
+      <Title />
+      <Button />
+      <Button />
+      <Button />
+      <Button />
     </div>;
     ReactDOM.createRoot(root).render(Container);
+
 </script>

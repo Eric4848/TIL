@@ -1,0 +1,170 @@
+{
+  "main": {
+    "id": "ce6335185f7ff427",
+    "type": "split",
+    "children": [
+      {
+        "id": "f2b5eb4336d1c038",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a1a3091315b2fd50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기본/Element 생성.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "21006fbce7acc736",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JSX.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bb6efbdf0d0bce18",
+    "type": "split",
+    "children": [
+      {
+        "id": "3a8b603bfbec29ba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6764e82fcd08758d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "46275c8daa18cff8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "34935f39927c23ce",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5674833cde707a7f",
+    "type": "split",
+    "children": [
+      {
+        "id": "c5eba38cf5088255",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "08d38226d8a359ee",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "JSX.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7d339a876c5b9707",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "JSX.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a43025f47a2f45ee",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e74be919262afa51",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "JSX.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "21006fbce7acc736",
+  "lastOpenFiles": [
+    "기본/개념.md",
+    "기본/Element 생성.md",
+    "JSX.md",
+    "기본",
+    "create a link.md"
+  ]
+}

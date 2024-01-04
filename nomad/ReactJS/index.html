@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <body>
-    <span>Total Clicks : 0</span>
+    <span id="total">Total Clicks : 0</span>
     <button id="btn">Click me!</button>
 </body>
 
@@ -9,10 +9,12 @@
 <script>
     let counter = 0;
     const button = document.querySelector("#btn");
-    const span = document.querySelector("span")
+                // document.getElementById("btn"); 
+    const total = document.querySelector("#total")
     function handleClick() {
         counter = counter + 1;
-        span.innerText = 'Total Clicks : ' + counter;
+        total.innerText = 'Total Clicks : ' + counter;
+                        //'Total Clicks : ${counter}';
     }
     button.addEventListener("click", handleClick);
 </script>
