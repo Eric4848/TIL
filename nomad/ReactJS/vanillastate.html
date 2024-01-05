@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <body>
-    <div id="root"></div>
+  <div id="root"></div>
 </body>
 
 </html>
@@ -9,20 +9,47 @@
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 <script type="text/babel">
-    const root = document.getElementById("root");
-    let counter = 0;
-    function countUp() {
-        counter = counter + 1;
-        render();
+  // const root = document.getElementById("root");
+  // let counter = 0;
+  // function countUp() {
+  //   counter = counter + 1;
+  //   render();
+  // }
+  // function render() {
+  //   ReactDOM.render(<Container />, root);
+  // }
+  // const Container = () => (
+  //   <div>
+  //     <h3>Total Clicks : {counter}</h3>
+  //     <button onClick={countUp}>Click me!</button>
+  //   </div>
+  // );
+  // render()
+
+  const root = document.getElementById("root");
+  function App() {
+    // const data = React.useState(0);
+    // const state = data[0]
+    // const modifier = data[1]
+
+    // array에 인덱스 대신 이름을 바로 붙이는 방법
+    // let [state, modifier] = React.useState(0);
+    // const onClick = () => {
+    //   state = state + 1;
+    //   console.log(state);
+    // }
+
+    const [counter, setCounter] = React.useState(0);
+    const onClick = () => {
+      // setCounter(counter + 1);    // State의 함수는 자동으로 render해준다
+
+      // modifier 응용
+      setCounter((current) => current + 1)  // 현재의 value를 기준으로 함수 실행
     }
-    function render() {
-        ReactDOM.render(<Container />, root);    
-    }
-    const Container = () => (
-    <div>
-        <h3>Total Clicks : {counter}</h3>
-        <button onClick={countUp}>Click me!</button>
+    return <div>
+      <h3>Total Clicks: {counter}</h3>
+      <button onClick={onClick}>Click me!</button>
     </div>
-    );
-    render()
+  }
+  ReactDOM.render(<App />, root);
 </script>

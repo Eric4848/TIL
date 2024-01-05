@@ -33,36 +33,66 @@
   // ReactDOM.createRoot(root).render(container);
 
   // JSX
-  // const root = document.querySelector("#root")
   // const Title = (
   //   <h3
   //     id="title"
   //     onMouseEnter={() => console.log("mouse entered")}>Thils is a title</h3>
   // );
   // const Button = (
-  //   <Button
-  //     onClick={() => console.log("I'm Clicked")}>Click me!</Button>
+  //   <button
+  //     onClick={() => console.log("I'm Clicked")}>Click me!</button>
   // );
   // const container = React.createElement("div", null, [Title, Button]);
   // ReactDOM.createRoot(root).render(container);
 
-  const Title = () => (
-    <h3 id="title" onMouseEnter={() => console.log("mouse entered")}>
-      This is a text
-    </h3>
-  );
-    const Button = () => (
-      <button style={{ backgroundColor: "red" }} onClick={() => console.log("I'm Clicked")}>
+  // 함수 형태로 만들면 여러 번 사용 가능
+  // const Title = () => (
+  //   <h3 id="title" onMouseEnter={() => console.log("mouse entered")}>
+  //     This is a text
+  //   </h3>
+  // );
+  //   const Button = () => (
+  //     <button style={{ backgroundColor: "red" }} onClick={() => console.log("I'm Clicked")}>
+  //       Click me!
+  //       </button>
+  //   );
+  //   const Container = <div>
+  //     <Title />
+  //     <Button />
+  //     <Button />
+  //     <Button />
+  //     <Button />
+  //   </div>;
+  //   ReactDOM.createRoot(root).render(Container);
+  
+  const root = document.querySelector("#root");
+  let counter = 0;
+  function countUp() {
+    counter = counter + 1;
+    render();
+  }
+  function render() {
+    ReactDOM.render(<Container />, root);
+  }
+  // const Container = () =>
+  //   <div>
+  //     <h3 id="title" onMouseEnter={() => console.log("mouse entered")}>
+  //       Total Clicks: {counter}
+  //     </h3>
+  //     <button onClick={countUp}>
+  //       Click me!
+  //     </button>
+  //   </div>;
+  // 함수로 생성하는 방법
+  function Container() {
+    return <div>
+      <h3 id="title" onMouseEnter={() => console.log("mouse entered")}>
+        Total Clicks: {counter}
+      </h3>
+      <button onClick={countUp}>
         Click me!
-        </button>
-    );
-    const Container = <div>
-      <Title />
-      <Button />
-      <Button />
-      <Button />
-      <Button />
+      </button>
     </div>;
-    ReactDOM.createRoot(root).render(Container);
-
+  }
+  render();
 </script>

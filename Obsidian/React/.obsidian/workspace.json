@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "74d76f0057cda86b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기본/State.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JSX.md",
+                "file": "기본/State.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JSX.md",
+                "file": "기본/State.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JSX.md"
+                "file": "기본/State.md"
               }
             }
           }
@@ -159,11 +171,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "21006fbce7acc736",
+  "active": "74d76f0057cda86b",
   "lastOpenFiles": [
+    "JS.md",
+    "JSX.md",
+    "기본/State.md",
     "기본/개념.md",
     "기본/Element 생성.md",
-    "JSX.md",
     "기본",
     "create a link.md"
   ]
