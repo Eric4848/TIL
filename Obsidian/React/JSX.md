@@ -9,3 +9,13 @@
   // 내용
 </script>
 ```
+## 2. HTML과 다르게 써야 할 점
+1. label의 for을 htmlFor로 사용해야 한다
+```js
+<label htmlFor="targetId">Label<label/>
+```
+2. class를 className으로 사용해야 한다
+```js
+<h1 className="class">Class<h1/>
+```
+3. 
