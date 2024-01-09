@@ -13,6 +13,12 @@
 - input을 입력받는 경우 인자의 target의 value로 접근할 수 있다
 ```js
 const func = (typed) => {
-	console.log(typed.target.value)   // input value에 접
+	console.log(typed.target.value)   // input value에 접근
 }
+```
+## 4. funcion
+- 생성한 변수를 조작하는 함수를 작성할 수 있다
+- 변수를 직접 변경하는 것 보다 현재 상태를 변경하는 것이 좋다
+```js
+funcName((current) => (current * something))   // 변수가 다른 곳에서 변한 것도 반영
 ```

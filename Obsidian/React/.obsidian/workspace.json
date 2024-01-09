@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "기본/State.md",
+                "file": "JS.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "기본/State.md",
+                "file": "JS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "기본/State.md",
+                "file": "JS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "기본/State.md"
+                "file": "JS.md"
               }
             }
           }
@@ -173,11 +173,11 @@
   },
   "active": "74d76f0057cda86b",
   "lastOpenFiles": [
-    "JSX.md",
     "기본/State.md",
+    "기본/Element 생성.md",
+    "JSX.md",
     "JS.md",
     "기본/개념.md",
-    "기본/Element 생성.md",
     "기본",
     "create a link.md"
   ]
