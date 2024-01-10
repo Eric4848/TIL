@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<body>
+  <div id="root"></div>
+</body>
+
+</html>
+<script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+<script src="https://unpkg.com/prop-types@15.6/prop-types.js"></script>
+<script type="text/babel">
+  // 같은 style의 버튼을 계속 만드는 방식
+  // function SaveBtn() {
+  //   return <button
+  //     style={{
+  //       backgroundColor: "skyblue",
+  //       color: "white",
+  //       padding: "10px 20px",
+  //       border: 0,
+  //       borderRadius: 10
+  //     }}>Save Changes</button>
+  // }
+  // function ConfirmBtn() {
+  //   return <button
+  //     style={{
+  //       backgroundColor: "skyblue",
+  //       color: "white",
+  //       padding: "10px 20px",
+  //       border: 0,
+  //       borderRadius: 10
+  //     }}>Confirm</button>
+  // }
+
+  // 특정 style의 버튼을 만들어 함수형의 인자로 받은 properties를 사용하는 방법
+  //function Btn(props) => object로 받음 => 1개로 받는다 => props.text로 사용
+  function Btn({ text, onClick, fontSize }) {   // object를 중괄호로 풀어 바로 사용한다
+    return <button
+      onClick={onClick}
+      style={{
+        backgroundColor: "skyblue",
+        color: "white",
+        padding: "10px 20px",
+        border: 0,
+        borderRadius: 10,
+        fontSize,
+      }}>{text}</button>
+  }
+
+  Btn.propTypes = {
+    text: PropTypes.string,
+  };
+
+  function App() {
+    const [value, setValue] = React.useState("Save Change")
+    const ChangeValue = () => setValue("RevertChanges")
+    return (
+      <div>
+        <Btn text={value} onClick={ChangeValue} />
+        <Btn text={14} fontSize={24}/>
+      </div>)
+  }
+
+  const root = document.getElementById("root");
+  ReactDOM.render(<App />, root);
+</script>

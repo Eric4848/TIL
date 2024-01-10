@@ -42,9 +42,69 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a18c3746b785bde0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기본/Props.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "70fd4b03607e7a60",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기본/Props.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3c0d3c068c6ca83e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기본/Memo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f8dfed1923f5c55e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Node.js.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "830b1c04f02e262e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "npm.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -110,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS.md",
+                "file": "npm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS.md",
+                "file": "npm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JS.md"
+                "file": "npm.md"
               }
             }
           }
@@ -171,13 +231,21 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "74d76f0057cda86b",
+  "active": "830b1c04f02e262e",
   "lastOpenFiles": [
-    "기본/State.md",
+    "Node.js.md",
+    "npm.md",
+    "기본/Memo.md",
+    "기본/Props.md",
+    "기본/Props Types.md",
+    "^.md",
+    "Memorize.md",
     "기본/Element 생성.md",
-    "JSX.md",
-    "JS.md",
+    "무제 폴더",
+    "기본/State.md",
     "기본/개념.md",
+    "JS.md",
+    "JSX.md",
     "기본",
     "create a link.md"
   ]
