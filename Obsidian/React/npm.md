@@ -7,3 +7,12 @@
  - node.js를 설치
  - npm create-react-app app의 이름(폴더명으로 생성됨)
  - npm start로 시
+
+## 2. install
+> 프로그램 설치
+
+1. 사용
+- npm i prog-name
+	- ex) npm i prop-types
+
+

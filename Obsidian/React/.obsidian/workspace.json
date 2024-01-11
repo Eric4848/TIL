@@ -102,9 +102,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "679ac673fca287f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Create React App/CSS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e018fa171df1ceaa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기본/Effect.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -170,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "npm.md",
+                "file": "기본/Effect.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "npm.md",
+                "file": "기본/Effect.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "npm.md"
+                "file": "기본/Effect.md"
               }
             }
           }
@@ -231,17 +255,19 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "830b1c04f02e262e",
+  "active": "e018fa171df1ceaa",
   "lastOpenFiles": [
-    "Node.js.md",
+    "기본/Element 생성.md",
+    "Create React App/CSS.md",
+    "기본/Effect.md",
     "npm.md",
     "기본/Memo.md",
+    "Create React App",
+    "Node.js.md",
     "기본/Props.md",
     "기본/Props Types.md",
     "^.md",
     "Memorize.md",
-    "기본/Element 생성.md",
-    "무제 폴더",
     "기본/State.md",
     "기본/개념.md",
     "JS.md",
