@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "기본/Effect.md",
+                "file": "JS.md",
                 "mode": "source",
                 "source": false
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "기본/Effect.md",
+                "file": "JS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "기본/Effect.md",
+                "file": "JS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "기본/Effect.md"
+                "file": "JS.md"
               }
             }
           }
@@ -257,8 +257,10 @@
   },
   "active": "e018fa171df1ceaa",
   "lastOpenFiles": [
-    "기본/Element 생성.md",
+    "기본/State.md",
+    "JS.md",
     "기본/Effect.md",
+    "기본/Element 생성.md",
     "Create React App/CSS.md",
     "npm.md",
     "기본/Memo.md",
@@ -268,9 +270,7 @@
     "기본/Props Types.md",
     "^.md",
     "Memorize.md",
-    "기본/State.md",
     "기본/개념.md",
-    "JS.md",
     "JSX.md",
     "기본",
     "create a link.md"

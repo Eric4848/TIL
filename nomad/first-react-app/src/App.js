@@ -60,7 +60,7 @@ function App() {
   const onClick = () => setShowing((prev) => !prev)
   return (
     <div>
-      {showing ? <Hello /> : null}      {/* 없어진다 */}
+      {showing ? <Hello /> : null}      {/* 생성되었다가 없어진다 */}
       <button onClick={onClick}>{showing ? "Hide" : "Show"}</button>
     </div>
   )

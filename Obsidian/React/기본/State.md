@@ -22,3 +22,5 @@ const func = (typed) => {
 ```js
 funcName((current) => (current * something))   // 변수가 다른 곳에서 변한 것도 반영
 ```
+
+## 5. array
