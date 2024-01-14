@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import TodoApp from './TodoApp';
 import CoinTracker from './CoinTracker';
+import MovieApp from './MovieApp';
+import Main from './Main';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -10,7 +12,9 @@ root.render(
   // <React.StrictMode>
     // <App />
     // <TodoApp />
-    <CoinTracker />
+    // <CoinTracker />
+    // <MovieApp />
+    <Main />
   // </React.StrictMode>
 );
 

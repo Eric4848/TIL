@@ -126,9 +126,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "94edf83683546dab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React Router.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -194,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS.md",
+                "file": "React Router.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS.md",
+                "file": "React Router.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JS.md"
+                "file": "React Router.md"
               }
             }
           }
@@ -255,10 +267,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "e018fa171df1ceaa",
+  "active": "94edf83683546dab",
   "lastOpenFiles": [
-    "기본/State.md",
     "JS.md",
+    "React Router.md",
+    "기본/State.md",
     "기본/Effect.md",
     "기본/Element 생성.md",
     "Create React App/CSS.md",
