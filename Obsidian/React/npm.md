@@ -15,4 +15,3 @@
 - npm i prog-name
 	- ex) npm i prop-types
 
-

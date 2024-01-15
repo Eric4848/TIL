@@ -5,7 +5,10 @@ function Movie({ id, title, medium_cover_image, rating, summary, genres }) {
   return (
     <div>
       <h2>
-        <Link to={`/movie/${id}`}>
+        {/* <Link to={`/movie/${id}`}>
+          {title}
+        </Link> */}
+        <Link to={`/movierecommend/movie/${id}`}>
           {title}
         </Link>
       </h2>
