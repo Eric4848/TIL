@@ -18,4 +18,14 @@
 ```js
 <h1 className="class">Class<h1/>
 ```
-3. 
+3.  return할 때 하나의 tag만 사용해야 한다
+```js
+function Main() {
+	return(
+		<div>
+			<tag></tag>
+			<tag></tag>
+		</div>
+	)
+}
+```

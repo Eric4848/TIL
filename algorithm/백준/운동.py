@@ -1,3 +1,4 @@
+# 메모리 초과
 import sys
 import heapq
 
@@ -33,7 +34,7 @@ if chk:
     print(-1)
 
 
-# 시간 초과
+# 시간 초과 (Pypy3로 제출시 정답)
 # import sys
 #
 # input = sys.stdin.readline
