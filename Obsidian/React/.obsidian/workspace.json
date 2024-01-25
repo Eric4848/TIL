@@ -150,9 +150,57 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f99943c9d598710a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "shadcn.ui/shadcn-ui.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1fe6bf031e2405c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Next/Route.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "348477ef4126b9f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Next/Route.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "578052bc85054f7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Next/Client.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -218,7 +266,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JSX.md",
+                "file": "Next/Client.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +283,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JSX.md",
+                "file": "Next/Client.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +306,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JSX.md"
+                "file": "Next/Client.md"
               }
             }
           }
@@ -279,8 +327,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "cafd31f0a04bcbbd",
+  "active": "578052bc85054f7a",
   "lastOpenFiles": [
+    "Next/Route.md",
+    "Next/Client.md",
+    "Next/layout.md",
+    "shadcn.ui/shadcn-ui.md",
+    "JSX.md",
+    "shadcn.ui",
+    "Next",
     "npm.md",
     "Node.js.md",
     "gh-pages.md",
@@ -297,7 +352,6 @@
     "^.md",
     "Memorize.md",
     "기본/개념.md",
-    "JSX.md",
     "기본",
     "create a link.md"
   ]
