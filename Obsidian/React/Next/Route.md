@@ -17,3 +17,9 @@ export function GET() {
 
 - 공통으로 Route한 폴더명을 ()로 감싸준다
 	- ex) (common)
+
+## 6. Route 연걸 제외
+> Route에 연결되지 않도록 하는 방법
+
+- 폴더명 앞에 `_` 를 붙여준다
+- 

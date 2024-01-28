@@ -8,211 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a1a3091315b2fd50",
+            "id": "0eb64e07600eed71",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "기본/Element 생성.md",
+                "file": "clerk/clerk.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "21006fbce7acc736",
+            "id": "9ec0ad9b3b9034c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JSX.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "74d76f0057cda86b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a18c3746b785bde0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "기본/Props.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "70fd4b03607e7a60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "기본/Props.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3c0d3c068c6ca83e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "기본/Memo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f8dfed1923f5c55e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Node.js.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "830b1c04f02e262e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "npm.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "679ac673fca287f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Create React App/CSS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e018fa171df1ceaa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "94edf83683546dab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "npm.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cafd31f0a04bcbbd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JSX.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f99943c9d598710a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "shadcn.ui/shadcn-ui.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1fe6bf031e2405c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Next/Route.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "348477ef4126b9f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Next/Route.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "578052bc85054f7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Next/Client.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7b6a9bd381839ba4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "clerk.md",
+                "file": "clerk/clerk.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -278,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "clerk.md",
+                "file": "clerk/clerk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "clerk.md",
+                "file": "clerk/clerk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "clerk.md"
+                "file": "clerk/clerk.md"
               }
             }
           }
@@ -339,17 +159,20 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "7b6a9bd381839ba4",
+  "active": "9ec0ad9b3b9034c3",
   "lastOpenFiles": [
-    "Next/Client.md",
-    "clerk.md",
+    "clerk/dark.md",
+    "clerk/clerk.md",
+    "clerk",
     "Next/Route.md",
-    "Next/layout.md",
+    "shadcn.ui/Dark-mode.md",
     "shadcn.ui/shadcn-ui.md",
+    "Next/Client.md",
     "JSX.md",
+    "npm.md",
+    "Next/layout.md",
     "shadcn.ui",
     "Next",
-    "npm.md",
     "Node.js.md",
     "gh-pages.md",
     "기본/React Router.md",
