@@ -7,6 +7,7 @@ const ~ = () => {
 }
 ```
 
-## 2. server client
+## 2. server side render
 > page 변경 불가(default)
-
+- Next.js의 default
+- JScode를 다운로드 하지 않아 더 빠르다
