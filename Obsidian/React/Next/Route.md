@@ -14,7 +14,7 @@ export function GET() {
 	return Response.json({test:"GET"})
 }
 ```
-## 5. Route 숨기기
+## 5. Route 숨기기 (Route group)
 > 공통으로 사용되는 url (/common/~~ 에서 /common) 상위 폴더명 없이 동작하게 하는 방법
 
 - 공통으로 Route한 폴더명을 ()로 감싸준다
@@ -24,3 +24,8 @@ export function GET() {
 > Route에 연결되지 않도록 하는 방법
 
 - 폴더명 앞에 `_` 를 붙여준다
+## 7. Dynamic Route
+- 사용하려는 주소 폴더 아래 `[id]`라는 이름의 폴더 생성
+- function(props) ==>
+	- params = id형식
+	- searchParams = 검색형식
