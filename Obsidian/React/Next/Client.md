@@ -6,7 +6,7 @@ const ~ = () => {
 
 }
 ```
-
+- metadata 사용 불가능
 ## 2. server side render
 > page 변경 불가(default)
 - Next.js의 default

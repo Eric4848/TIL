@@ -78,9 +78,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7d5a83c33e62c42d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Next/Client.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f3cf45d723eb8729",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Next/Client.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6297379ee41cfd1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Next/Loading.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -146,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next/Route.md",
+                "file": "Next/Loading.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next/Route.md",
+                "file": "Next/Loading.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next/Route.md"
+                "file": "Next/Loading.md"
               }
             }
           }
@@ -207,14 +243,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "e9decbf254ae1f2d",
+  "active": "6297379ee41cfd1f",
   "lastOpenFiles": [
     "Next/layout.md",
-    "Next/Metadata.md",
-    "Next/Route.md",
-    "Next/Client.md",
-    "Hydration.md",
+    "Next/Data fetching.md",
     "Next/Start.md",
+    "Next/Loading.md",
+    "Next/Client.md",
+    "Next/Route.md",
+    "Next/not-found.md",
+    "Next/Metadata.md",
+    "Hydration.md",
     "JSX.md",
     "JS.md",
     "gh-pages.md",
@@ -235,10 +274,7 @@
     "기본/Effect.md",
     "기본/Element 생성.md",
     "Create React App/CSS.md",
-    "기본/Memo.md",
     "Create React App",
-    "^.md",
-    "Memorize.md",
     "기본"
   ]
 }

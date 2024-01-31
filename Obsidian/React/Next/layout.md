@@ -4,14 +4,18 @@
 - 공통으로 사용할 폴더에 layout이름으로 생성
 - export default
 - property에 children을 반드시 추가해야 한다
+- 가장 바깥의 layout은 html과 body를 가져야 한다
+	- 그 외는 가지면 안된다
 ```tsx
-const AuthLayout = ({children}:{children: React.ReactNode}) => {
+const Layout = ({children}:{children: React.ReactNode}) => {
   return (
-    <div>
-      {children}
-    </div>
+    <html lang='en'>
+      <body>
+        {children}
+      </body>
+    </html>
   )
 }
 
-export default AuthLayout
+export default Layout
 ```
