@@ -5,4 +5,4 @@
 - 'not-found' 파일명 준수
 
 ## 2. 문법
-- page와 동
+- page와 동일

@@ -109,14 +109,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next/Loading.md",
+                "file": "Next/Route.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8a7a5f6347cd440e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Next/Parallel Request.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fbcbcfcd2aca29f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Next/not-found.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f6bc92306c10913d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Next/Error.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -182,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next/Loading.md",
+                "file": "Next/Error.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next/Loading.md",
+                "file": "Next/Error.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next/Loading.md"
+                "file": "Next/Error.md"
               }
             }
           }
@@ -243,23 +279,26 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "6297379ee41cfd1f",
+  "active": "f6bc92306c10913d",
   "lastOpenFiles": [
-    "Next/layout.md",
-    "Next/Data fetching.md",
-    "Next/Start.md",
     "Next/Loading.md",
-    "Next/Client.md",
-    "Next/Route.md",
+    "Next/layout.md",
+    "Next/Error.md",
     "Next/not-found.md",
     "Next/Metadata.md",
+    "기본/Suspense.md",
+    "기본/usePathname.md",
+    "Next/Parallel Request.md",
+    "Next/Route.md",
+    "Next/Data fetching.md",
+    "Next/Start.md",
+    "Next/Client.md",
     "Hydration.md",
     "JSX.md",
     "JS.md",
     "gh-pages.md",
     "npm.md",
     "Node.js.md",
-    "기본/usePathname.md",
     "기본/Props.md",
     "기본/Props Types.md",
     "기본/React Router.md",
@@ -271,9 +310,6 @@
     "shadcn.ui/shadcn-ui.md",
     "shadcn.ui",
     "Next",
-    "기본/Effect.md",
-    "기본/Element 생성.md",
-    "Create React App/CSS.md",
     "Create React App",
     "기본"
   ]
