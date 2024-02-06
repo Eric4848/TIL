@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next/Error.md",
+                "file": "기본/CSS.md",
                 "mode": "source",
                 "source": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next/Error.md",
+                "file": "기본/CSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next/Error.md",
+                "file": "기본/CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next/Error.md"
+                "file": "기본/CSS.md"
               }
             }
           }
@@ -279,15 +279,20 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "f6bc92306c10913d",
+  "active": "6764e82fcd08758d",
   "lastOpenFiles": [
+    "기본/usePathname.md",
+    "기본/Suspense.md",
+    "기본/Props.md",
+    "기본/Props Types.md",
+    "기본/React Router.md",
+    "기본/Effect.md",
+    "기본/Element 생성.md",
+    "Next/Error.md",
     "Next/Loading.md",
     "Next/layout.md",
-    "Next/Error.md",
     "Next/not-found.md",
     "Next/Metadata.md",
-    "기본/Suspense.md",
-    "기본/usePathname.md",
     "Next/Parallel Request.md",
     "Next/Route.md",
     "Next/Data fetching.md",
@@ -299,15 +304,10 @@
     "gh-pages.md",
     "npm.md",
     "Node.js.md",
-    "기본/Props.md",
-    "기본/Props Types.md",
-    "기본/React Router.md",
     "기본/State.md",
     "clerk/clerk.md",
     "clerk/dark.md",
     "clerk",
-    "shadcn.ui/Dark-mode.md",
-    "shadcn.ui/shadcn-ui.md",
     "shadcn.ui",
     "Next",
     "Create React App",

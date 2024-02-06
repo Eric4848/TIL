@@ -11,7 +11,11 @@
 ## 3. Style.module.css
 > object로 만들어 일부에만 적용
 
-1. src에 style.module.css파일 생성
+1. style.module.css파일 생성
+	- ---.module.css형태가 중요
 2. css파일에 .name_i_set으로 style 설정
 3. 적용할 component에 해당 style.module.css를 styleName으로 import
 4. 적용할 component에 className={styleName.name_i_set}
+
+### 조건
+class로  style을 지정해야한다
