@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "기본/CSS.md",
+                "file": "Next/not-found.md",
                 "mode": "source",
                 "source": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "기본/CSS.md",
+                "file": "Next/not-found.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "기본/CSS.md",
+                "file": "Next/not-found.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "기본/CSS.md"
+                "file": "Next/not-found.md"
               }
             }
           }
@@ -279,34 +279,34 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "6764e82fcd08758d",
+  "active": "f6bc92306c10913d",
   "lastOpenFiles": [
-    "기본/usePathname.md",
-    "기본/Suspense.md",
-    "기본/Props.md",
-    "기본/Props Types.md",
-    "기본/React Router.md",
-    "기본/Effect.md",
-    "기본/Element 생성.md",
-    "Next/Error.md",
-    "Next/Loading.md",
-    "Next/layout.md",
-    "Next/not-found.md",
-    "Next/Metadata.md",
     "Next/Parallel Request.md",
-    "Next/Route.md",
-    "Next/Data fetching.md",
     "Next/Start.md",
-    "Next/Client.md",
-    "Hydration.md",
-    "JSX.md",
-    "JS.md",
-    "gh-pages.md",
+    "Next/Route.md",
     "npm.md",
     "Node.js.md",
-    "기본/State.md",
-    "clerk/clerk.md",
+    "JSX.md",
+    "Hydration.md",
+    "JS.md",
+    "gh-pages.md",
+    "Next/layout.md",
+    "Next/Loading.md",
+    "Next/Metadata.md",
+    "Next/not-found.md",
+    "Next/Data fetching.md",
+    "Next/Error.md",
+    "Next/Client.md",
     "clerk/dark.md",
+    "clerk/clerk.md",
+    "기본/개념.md",
+    "기본/CSS.md",
+    "기본/Effect.md",
+    "기본/Element 생성.md",
+    "기본/Props.md",
+    "기본/Memo.md",
+    "기본/Props Types.md",
+    "기본/React Router.md",
     "clerk",
     "shadcn.ui",
     "Next",
