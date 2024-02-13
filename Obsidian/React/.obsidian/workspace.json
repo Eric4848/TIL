@@ -150,9 +150,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "853a3636036fb8e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "planetscale/DataBase.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2d2ef1c152be04c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Prisma/기본.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -218,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next/not-found.md",
+                "file": "Prisma/기본.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next/not-found.md",
+                "file": "Prisma/기본.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +282,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next/not-found.md"
+                "file": "Prisma/기본.md"
               }
             }
           }
@@ -279,8 +303,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "f6bc92306c10913d",
+  "active": "2d2ef1c152be04c1",
   "lastOpenFiles": [
+    "planetscale/DataBase.md",
+    "Prisma/기본.md",
+    "Prisma",
+    "Next/not-found.md",
+    "planetscale",
     "Next/Parallel Request.md",
     "Next/Start.md",
     "Next/Route.md",
@@ -293,7 +322,6 @@
     "Next/layout.md",
     "Next/Loading.md",
     "Next/Metadata.md",
-    "Next/not-found.md",
     "Next/Data fetching.md",
     "Next/Error.md",
     "Next/Client.md",
@@ -305,8 +333,6 @@
     "기본/Element 생성.md",
     "기본/Props.md",
     "기본/Memo.md",
-    "기본/Props Types.md",
-    "기본/React Router.md",
     "clerk",
     "shadcn.ui",
     "Next",
