@@ -210,9 +210,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ff09da338f92f856",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "shadcn.ui/input.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 16
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -278,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ngrok/ngrok.md",
+                "file": "shadcn.ui/input.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ngrok/ngrok.md",
+                "file": "shadcn.ui/input.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ngrok/ngrok.md"
+                "file": "shadcn.ui/input.md"
               }
             }
           }
@@ -339,11 +351,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "4556cace5355a64f",
+  "active": "ff09da338f92f856",
   "lastOpenFiles": [
+    "shadcn.ui/shadcn-ui.md",
+    "shadcn.ui/input.md",
+    "ngrok/ngrok.md",
     "ngrok/Svix.md",
     "clerk/Webhooks.md",
-    "ngrok/ngrok.md",
     "Prisma/기본.md",
     "ngrok",
     "planetscale/DataBase.md",
@@ -368,8 +382,6 @@
     "clerk/dark.md",
     "clerk/clerk.md",
     "기본/개념.md",
-    "기본/CSS.md",
-    "기본/Effect.md",
     "clerk",
     "shadcn.ui",
     "Next",
