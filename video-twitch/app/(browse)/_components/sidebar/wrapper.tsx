@@ -1,7 +1,12 @@
 "use client";
 
+import { useState, useEffect } from "react";
+import { useIsClient } from "usehooks-ts";
+
 import { cn } from "@/lib/utils";
 import { useSidebar } from "@/store/use-sidebar";
+import { ToggleSkeleton } from "./toggle";
+import { RecommendedSkeleton } from "./recommended";
 
 interface WrapperProps {
   children: React.ReactNode;
@@ -9,6 +14,24 @@ interface WrapperProps {
 
 export const Wrapper = ({ children }: WrapperProps) => {
   const { collapsed } = useSidebar((state) => state);
+
+  // useIsClient로 대체 가능
+  const [isClient, setIsClient] = useState(false);
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+  // const isClient = useIsClient();
+
+  // server-side-render시 보여줄 skeleton
+  if (!isClient) {
+    return (
+      <aside className='fixed left-0 flex flex-col w-[70px] lg:w-60 h-full bg-background border-r border-[#2D2E35] z-50'>
+        <ToggleSkeleton />
+        <RecommendedSkeleton />
+      </aside>
+    );
+  }
+
   return (
     <aside
       className={cn(

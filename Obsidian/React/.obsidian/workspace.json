@@ -222,9 +222,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bdd2834abb0e3ee7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "shadcn.ui/Tooltip.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9a0e589193bf74a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "shadcn.ui/Avatar.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d2c24693e19e5d6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "shadcn.ui/Skeleton.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 17
+        "currentTab": 20
       }
     ],
     "direction": "vertical"
@@ -290,7 +326,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "shadcn.ui/input.md",
+                "file": "shadcn.ui/Skeleton.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +343,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "shadcn.ui/input.md",
+                "file": "shadcn.ui/Skeleton.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +366,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "shadcn.ui/input.md"
+                "file": "shadcn.ui/Skeleton.md"
               }
             }
           }
@@ -351,10 +387,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ff09da338f92f856",
+  "active": "d2c24693e19e5d6b",
   "lastOpenFiles": [
-    "shadcn.ui/shadcn-ui.md",
+    "shadcn.ui/Avatar.md",
+    "shadcn.ui/Dark-mode.md",
+    "shadcn.ui/Skeleton.md",
+    "shadcn.ui/Tooltip.md",
     "shadcn.ui/input.md",
+    "shadcn.ui/shadcn-ui.md",
     "ngrok/ngrok.md",
     "ngrok/Svix.md",
     "clerk/Webhooks.md",
@@ -378,10 +418,6 @@
     "Next/Metadata.md",
     "Next/Data fetching.md",
     "Next/Error.md",
-    "Next/Client.md",
-    "clerk/dark.md",
-    "clerk/clerk.md",
-    "기본/개념.md",
     "clerk",
     "shadcn.ui",
     "Next",
