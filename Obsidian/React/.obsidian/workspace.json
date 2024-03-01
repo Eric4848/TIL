@@ -270,9 +270,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2213e792497e9874",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "shadcn.ui/Switch.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 21
+        "currentTab": 22
       }
     ],
     "direction": "vertical"
@@ -338,7 +350,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sonner/Sonner.md",
+                "file": "shadcn.ui/Switch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -355,7 +367,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sonner/Sonner.md",
+                "file": "shadcn.ui/Switch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -378,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sonner/Sonner.md"
+                "file": "shadcn.ui/Switch.md"
               }
             }
           }
@@ -399,14 +411,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "19638db1261b9747",
+  "active": "2213e792497e9874",
   "lastOpenFiles": [
-    "shadcn.ui/Skeleton.md",
+    "shadcn.ui/Tooltip.md",
+    "shadcn.ui/Switch.md",
     "Sonner/Sonner.md",
+    "shadcn.ui/Skeleton.md",
     "Sonner",
     "shadcn.ui/Avatar.md",
     "shadcn.ui/Dark-mode.md",
-    "shadcn.ui/Tooltip.md",
     "shadcn.ui/input.md",
     "shadcn.ui/shadcn-ui.md",
     "ngrok/ngrok.md",
@@ -430,7 +443,6 @@
     "Next/layout.md",
     "Next/Loading.md",
     "Next/Metadata.md",
-    "Next/Data fetching.md",
     "clerk",
     "shadcn.ui",
     "Next",
