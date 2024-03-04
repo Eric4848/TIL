@@ -9,6 +9,7 @@ export const getFollowedUsers = async () => {
       where: {
         followerId: self.id,
         following: {
+          // 나를 차단한 유저 제거
           blocking: {
             none: {
               blockedId: self.id,

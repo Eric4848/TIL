@@ -4,287 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "f2b5eb4336d1c038",
+        "id": "6cd675777a2859da",
         "type": "tabs",
         "children": [
           {
-            "id": "0eb64e07600eed71",
+            "id": "dcdc45a8fc23142b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "clerk/clerk.md",
+                "file": "shadcn.ui/Alert.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9ec0ad9b3b9034c3",
+            "id": "bbe1c5b69851e990",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next/Client.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "94e77974d9b11e98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "기본/Props.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9e08a9afa49135ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Next/Client.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f65afeaa12877a53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Next/Route.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e9decbf254ae1f2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Next/Route.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d5a83c33e62c42d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Next/Client.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f3cf45d723eb8729",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Next/Client.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6297379ee41cfd1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Next/Route.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8a7a5f6347cd440e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Next/Parallel Request.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fbcbcfcd2aca29f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Next/not-found.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f6bc92306c10913d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Next/not-found.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "853a3636036fb8e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "planetscale/DataBase.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2d2ef1c152be04c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Prisma/기본.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b36ffc0811a8fa1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ngrok/ngrok.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "abed23f301efc3a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "clerk/Webhooks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4556cace5355a64f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ngrok/ngrok.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ff09da338f92f856",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "shadcn.ui/input.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bdd2834abb0e3ee7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "shadcn.ui/Tooltip.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9a0e589193bf74a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "shadcn.ui/Avatar.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d2c24693e19e5d6b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "shadcn.ui/Skeleton.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "19638db1261b9747",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sonner/Sonner.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2213e792497e9874",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "shadcn.ui/Switch.md",
+                "file": "Livekit/Livekit.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 22
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -350,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "shadcn.ui/Switch.md",
+                "file": "Livekit/Livekit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -367,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "shadcn.ui/Switch.md",
+                "file": "Livekit/Livekit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -390,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "shadcn.ui/Switch.md"
+                "file": "Livekit/Livekit.md"
               }
             }
           }
@@ -411,38 +159,39 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2213e792497e9874",
+  "active": "bbe1c5b69851e990",
   "lastOpenFiles": [
-    "shadcn.ui/Tooltip.md",
-    "shadcn.ui/Switch.md",
-    "Sonner/Sonner.md",
-    "shadcn.ui/Skeleton.md",
-    "Sonner",
-    "shadcn.ui/Avatar.md",
-    "shadcn.ui/Dark-mode.md",
-    "shadcn.ui/input.md",
-    "shadcn.ui/shadcn-ui.md",
-    "ngrok/ngrok.md",
-    "ngrok/Svix.md",
-    "clerk/Webhooks.md",
-    "Prisma/기본.md",
-    "ngrok",
-    "planetscale/DataBase.md",
-    "Prisma",
-    "Next/not-found.md",
-    "planetscale",
-    "Next/Parallel Request.md",
-    "Next/Start.md",
+    "shadcn.ui/Alert.md",
+    "Livekit/Livekit.md",
+    "Livekit",
+    "shadcn.ui/Select.md",
+    "shadcn.ui/Dialog.md",
+    "clerk/clerk.md",
+    "Next/Client.md",
+    "기본/Props.md",
     "Next/Route.md",
+    "Next/Parallel Request.md",
+    "Next/not-found.md",
+    "planetscale/DataBase.md",
+    "Prisma/기본.md",
+    "ngrok/ngrok.md",
+    "clerk/Webhooks.md",
+    "shadcn.ui/input.md",
+    "shadcn.ui/Tooltip.md",
+    "shadcn.ui/Avatar.md",
+    "shadcn.ui/Skeleton.md",
+    "Sonner/Sonner.md",
+    "shadcn.ui/Switch.md",
+    "Sonner",
+    "shadcn.ui/Dark-mode.md",
+    "shadcn.ui/shadcn-ui.md",
+    "ngrok/Svix.md",
+    "ngrok",
+    "Prisma",
+    "planetscale",
+    "Next/Start.md",
     "npm.md",
     "Node.js.md",
-    "JSX.md",
-    "Hydration.md",
-    "JS.md",
-    "gh-pages.md",
-    "Next/layout.md",
-    "Next/Loading.md",
-    "Next/Metadata.md",
     "clerk",
     "shadcn.ui",
     "Next",
