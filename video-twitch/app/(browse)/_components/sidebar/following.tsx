@@ -8,7 +8,7 @@ import { UserItemSkeleton } from "@/components/user-avatar";
 interface FollowingProps {
   data: (Follow & {
     following: User & {
-      stream: Stream | null;
+      stream: { isLive: boolean } | null;
     };
   })[];
 }
