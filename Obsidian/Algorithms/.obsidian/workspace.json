@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "751e4fcb55f0832f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "위상정렬.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "그래프/프림(Prim).md",
+                "file": "위상정렬.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "그래프/프림(Prim).md",
+                "file": "위상정렬.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "그래프/프림(Prim).md"
+                "file": "위상정렬.md"
               }
             }
           }
@@ -172,14 +184,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5fb2a7cb00a191bd",
+  "active": "751e4fcb55f0832f",
   "lastOpenFiles": [
-    "그래프/크루스칼(Kruskal).md",
-    "그래프/프림(Prim).md",
-    "그래프/벨만 - 포드.md",
     "그래프/플로이드 - 워셜.md",
-    "기타 레슨 - 백준.md",
+    "그래프/프림(Prim).md",
+    "위상정렬.md",
+    "그래프/크루스칼(Kruskal).md",
+    "그래프/벨만 - 포드.md",
     "검문 - 백준.md",
+    "기타 레슨 - 백준.md",
     "다이나믹 프로그래밍/동전.md",
     "2023-10-13.md",
     "무제 파일.canvas",
