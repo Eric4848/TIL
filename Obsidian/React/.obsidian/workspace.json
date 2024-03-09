@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1cbd9ff6f2b3f78b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "shadcn.ui/Slider.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Livekit/Livekit.md",
+                "file": "shadcn.ui/Slider.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Livekit/Livekit.md",
+                "file": "shadcn.ui/Slider.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Livekit/Livekit.md"
+                "file": "shadcn.ui/Slider.md"
               }
             }
           }
@@ -159,10 +171,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "bbe1c5b69851e990",
+  "active": "1cbd9ff6f2b3f78b",
   "lastOpenFiles": [
-    "shadcn.ui/Alert.md",
+    "shadcn.ui/Switch.md",
+    "shadcn.ui/Slider.md",
     "Livekit/Livekit.md",
+    "shadcn.ui/Alert.md",
     "Livekit",
     "shadcn.ui/Select.md",
     "shadcn.ui/Dialog.md",
@@ -181,7 +195,6 @@
     "shadcn.ui/Avatar.md",
     "shadcn.ui/Skeleton.md",
     "Sonner/Sonner.md",
-    "shadcn.ui/Switch.md",
     "Sonner",
     "shadcn.ui/Dark-mode.md",
     "shadcn.ui/shadcn-ui.md",
@@ -191,7 +204,6 @@
     "planetscale",
     "Next/Start.md",
     "npm.md",
-    "Node.js.md",
     "clerk",
     "shadcn.ui",
     "Next",

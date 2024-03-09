@@ -17,6 +17,8 @@ export const useViewerToken = (hostIdentity: string) => {
 
         const decodedToken = jwtDecode(viewerToken) as JwtPayload & { name?: string };
         const name = decodedToken?.name;
+        // const identity = decodedToken.jti;
+        // 위의 것은 null값 반환 .sub로 해야 원하는 값이 나옴
         const identity = decodedToken.sub;
 
         if (identity) {
