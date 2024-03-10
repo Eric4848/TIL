@@ -5,3 +5,7 @@
 # [2. 현재 공부중](https://github.com/Eric4848/TIL/tree/master/video-twitch)
 
 > React, Next 배우기
+
+[-Twitch Clone Coding](https://github.com/Eric4848/TIL/tree/master/video-twitch)
+
+[-memo](https://github.com/Eric4848/TIL/tree/master/Obsidian/React)
