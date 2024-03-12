@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "shadcn.ui/Slider.md",
+                "file": "shadcn.ui/Scroll-area.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "shadcn.ui/Slider.md",
+                "file": "shadcn.ui/Scroll-area.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "shadcn.ui/Slider.md",
+                "file": "shadcn.ui/Scroll-area.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "shadcn.ui/Slider.md"
+                "file": "shadcn.ui/Scroll-area.md"
               }
             }
           }
@@ -173,12 +173,13 @@
   },
   "active": "1cbd9ff6f2b3f78b",
   "lastOpenFiles": [
-    "shadcn.ui/Switch.md",
+    "shadcn.ui/Select.md",
+    "shadcn.ui/Scroll-area.md",
     "shadcn.ui/Slider.md",
+    "shadcn.ui/Switch.md",
     "Livekit/Livekit.md",
     "shadcn.ui/Alert.md",
     "Livekit",
-    "shadcn.ui/Select.md",
     "shadcn.ui/Dialog.md",
     "clerk/clerk.md",
     "Next/Client.md",
@@ -203,7 +204,6 @@
     "Prisma",
     "planetscale",
     "Next/Start.md",
-    "npm.md",
     "clerk",
     "shadcn.ui",
     "Next",
