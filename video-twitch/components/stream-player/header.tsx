@@ -34,7 +34,7 @@ export const Header = ({ imageUrl, hostName, hostIdentity, viewerIdentity, isFol
           imageUrl={imageUrl}
           username={hostName}
           size='lg'
-          isLive={true}
+          isLive={isLive}
           showBadge
         />
         <div className='space-y-1'>

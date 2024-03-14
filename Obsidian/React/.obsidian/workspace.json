@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "shadcn.ui/Scroll-area.md",
+                "file": "shadcn.ui/Separator.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "shadcn.ui/Scroll-area.md",
+                "file": "shadcn.ui/Separator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "shadcn.ui/Scroll-area.md",
+                "file": "shadcn.ui/Separator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "shadcn.ui/Scroll-area.md"
+                "file": "shadcn.ui/Separator.md"
               }
             }
           }
@@ -174,13 +174,14 @@
   "active": "1cbd9ff6f2b3f78b",
   "lastOpenFiles": [
     "shadcn.ui/Select.md",
+    "shadcn.ui/Separator.md",
+    "shadcn.ui/Dialog.md",
     "shadcn.ui/Scroll-area.md",
     "shadcn.ui/Slider.md",
     "shadcn.ui/Switch.md",
     "Livekit/Livekit.md",
     "shadcn.ui/Alert.md",
     "Livekit",
-    "shadcn.ui/Dialog.md",
     "clerk/clerk.md",
     "Next/Client.md",
     "기본/Props.md",
@@ -203,7 +204,6 @@
     "ngrok",
     "Prisma",
     "planetscale",
-    "Next/Start.md",
     "clerk",
     "shadcn.ui",
     "Next",
