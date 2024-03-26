@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "94b3c01951d09663",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GSAP/GsapFromTo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "shadcn.ui/Data table.md",
+                "file": "GSAP/GsapFromTo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "shadcn.ui/Data table.md",
+                "file": "GSAP/GsapFromTo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "shadcn.ui/Data table.md"
+                "file": "GSAP/GsapFromTo.md"
               }
             }
           }
@@ -171,8 +183,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "1cbd9ff6f2b3f78b",
+  "active": "94b3c01951d09663",
   "lastOpenFiles": [
+    "GSAP/GsapFrom.md",
+    "GSAP/GsapFromTo.md",
+    "GSAP/GsapTo.md",
+    "GSAP/Install.md",
+    "GSAP/기본.md",
+    "Three.js",
+    "GSAP",
     "shadcn.ui/Separator.md",
     "shadcn.ui/Data table.md",
     "shadcn.ui/Select.md",
@@ -195,19 +214,12 @@
     "clerk/Webhooks.md",
     "shadcn.ui/input.md",
     "shadcn.ui/Tooltip.md",
-    "shadcn.ui/Avatar.md",
-    "shadcn.ui/Skeleton.md",
-    "Sonner/Sonner.md",
     "Sonner",
-    "shadcn.ui/Dark-mode.md",
-    "shadcn.ui/shadcn-ui.md",
     "ngrok",
     "Prisma",
     "planetscale",
     "clerk",
     "shadcn.ui",
-    "Next",
-    "Create React App",
-    "기본"
+    "Next"
   ]
 }
