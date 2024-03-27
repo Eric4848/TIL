@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GSAP/GsapFromTo.md",
+                "file": "GSAP/GsapText.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GSAP/GsapFromTo.md",
+                "file": "GSAP/GsapText.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GSAP/GsapFromTo.md",
+                "file": "GSAP/GsapText.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GSAP/GsapFromTo.md"
+                "file": "GSAP/GsapText.md"
               }
             }
           }
@@ -185,8 +185,12 @@
   },
   "active": "94b3c01951d09663",
   "lastOpenFiles": [
-    "GSAP/GsapFrom.md",
+    "GSAP/GsapScrollTrigger.md",
+    "GSAP/GsapText.md",
     "GSAP/GsapFromTo.md",
+    "GSAP/GsapStagger.md",
+    "GSAP/GsapFrom.md",
+    "GSAP/GsapTimeline.md",
     "GSAP/GsapTo.md",
     "GSAP/Install.md",
     "GSAP/기본.md",
@@ -210,10 +214,6 @@
     "Next/not-found.md",
     "planetscale/DataBase.md",
     "Prisma/기본.md",
-    "ngrok/ngrok.md",
-    "clerk/Webhooks.md",
-    "shadcn.ui/input.md",
-    "shadcn.ui/Tooltip.md",
     "Sonner",
     "ngrok",
     "Prisma",
