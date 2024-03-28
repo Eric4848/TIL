@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GSAP/GsapText.md",
+                "file": "Vite/Tailwind.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GSAP/GsapText.md",
+                "file": "Vite/Tailwind.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GSAP/GsapText.md",
+                "file": "Vite/Tailwind.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GSAP/GsapText.md"
+                "file": "Vite/Tailwind.md"
               }
             }
           }
@@ -185,8 +185,10 @@
   },
   "active": "94b3c01951d09663",
   "lastOpenFiles": [
-    "GSAP/GsapScrollTrigger.md",
     "GSAP/GsapText.md",
+    "Vite/Tailwind.md",
+    "Vite",
+    "GSAP/GsapScrollTrigger.md",
     "GSAP/GsapFromTo.md",
     "GSAP/GsapStagger.md",
     "GSAP/GsapFrom.md",
@@ -213,13 +215,11 @@
     "Next/Parallel Request.md",
     "Next/not-found.md",
     "planetscale/DataBase.md",
-    "Prisma/기본.md",
     "Sonner",
     "ngrok",
     "Prisma",
     "planetscale",
     "clerk",
-    "shadcn.ui",
-    "Next"
+    "shadcn.ui"
   ]
 }
