@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6bc959ec3215c6c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Three.js/Install.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vite/Tailwind.md",
+                "file": "Three.js/Install.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vite/Tailwind.md",
+                "file": "Three.js/Install.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vite/Tailwind.md"
+                "file": "Three.js/Install.md"
               }
             }
           }
@@ -183,10 +195,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "94b3c01951d09663",
+  "active": "6bc959ec3215c6c1",
   "lastOpenFiles": [
-    "GSAP/GsapText.md",
     "Vite/Tailwind.md",
+    "Three.js/Install.md",
+    "무제 폴더",
+    "GSAP/GsapText.md",
     "Vite",
     "GSAP/GsapScrollTrigger.md",
     "GSAP/GsapFromTo.md",
@@ -214,12 +228,10 @@
     "Next/Route.md",
     "Next/Parallel Request.md",
     "Next/not-found.md",
-    "planetscale/DataBase.md",
     "Sonner",
     "ngrok",
     "Prisma",
     "planetscale",
-    "clerk",
-    "shadcn.ui"
+    "clerk"
   ]
 }
