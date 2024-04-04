@@ -66,8 +66,9 @@ canvas {
     @apply text-gray max-w-md text-lg md:text-xl font-semibold opacity-0 translate-y-[100px]
   }
 
+  /* scrollTrigger작동 안하는 경우가 있어 높이 15vh로 설정 */
   .feature-text-container {
-    @apply w-full flex-center flex-col md:flex-row mt-10 md:mt-16 gap-5
+    @apply w-full h-[15vh] flex-center flex-col md:flex-row mt-10 md:mt-16 gap-5
   }
 
   .feature-video {
