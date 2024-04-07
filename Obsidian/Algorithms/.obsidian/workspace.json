@@ -122,7 +122,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "위상정렬.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +138,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "위상정렬.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "위상정렬.md"
+                "file": "비트마스크.md"
               }
             }
           }
@@ -184,11 +182,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "751e4fcb55f0832f",
+  "active": "c5e32192deb5405b",
   "lastOpenFiles": [
+    "위상정렬.md",
+    "비트마스크.md",
     "그래프/플로이드 - 워셜.md",
     "그래프/프림(Prim).md",
-    "위상정렬.md",
     "그래프/크루스칼(Kruskal).md",
     "그래프/벨만 - 포드.md",
     "검문 - 백준.md",
