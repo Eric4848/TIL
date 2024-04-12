@@ -16,3 +16,4 @@ for _ in range(T):
             dp[j][i+j] += min([dp[j][k] + dp[k+1][i+j] for k in range(j, i+j)])
 
     print(dp[0][-1])
+ 

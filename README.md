@@ -6,6 +6,6 @@
 
 > GSAP 배우기
 
-[-Twitch Clone Coding](https://github.com/Eric4848/TIL/tree/master/apple-webpage)
+[-Apple web](https://github.com/Eric4848/TIL/tree/master/apple-webpage)
 
 [-memo](https://github.com/Eric4848/TIL/tree/master/Obsidian/React)
