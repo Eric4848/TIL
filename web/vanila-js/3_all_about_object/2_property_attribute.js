@@ -78,6 +78,7 @@ Object.defineProperty(wy2, "height", { writable: true, configurable: false });
 console.log(Object.getOwnPropertyDescriptor(wy2, "height"));
 // Object.defineProperty(wy2, "height", { enumerable: false });   불가능
 console.log("--------------");
+
 Object.defineProperty(wy2, "height", { value: 172 });
 console.log(Object.getOwnPropertyDescriptor(wy2, "height"));
 Object.defineProperty(wy2, "height", { writable: false });
