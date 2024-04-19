@@ -28,6 +28,8 @@ class IdolModel {
 }
 console.log(new IdolModel("장원영", 2004));
 console.log("----------------------------");
+
+// function
 function IdolFunction(name, year) {
   this.name = name;
   this.year = year;
